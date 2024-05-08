@@ -1,59 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
 
-html {
-    height: 100%;
-    --backgroud: #222831;
-    --text: #EEEEEE;
-}
-
-/*
-body {
-    margin: 0;
-    min-height: 100%;
-    width: 100%;
-    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
-    background-size: 100%;
-}*/
-
 
 .content {
     color: #EEEEEE;
     font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
-    text-align: center;
+    
     flex-direction: column;
 }
-
+::-webkit-scrollbar {
+    width: 16px;
+}
+::-webkit-scrollbar-track {
+    background-color: #222831;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+  border: 3px solid transparent;
+   background-clip: content-box;
+    background-color: #31363F;
+}
 .content:nth-child(1) {
-    font-size: 6em;
+    font-size: 3em;
 }
 
 .card {
-    display: inline-block;
     color: var(--text);
     flex-direction: column;
     padding: 20px;
+    padding-left: 30px;
+    padding-right: 170px;
+    margin-left: 30px;
+    margin-right: 30px;
 
-    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+    display: inline-block;
+
+    font: 400 12px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
 
     backdrop-filter: blur(1px) saturate(18%);
     -webkit-backdrop-filter: blur(12px) saturate(18%);
     background-color: rgba(17, 25, 40, 0.57);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
+
+    text-align: start;
 }
 
 .bottom {
     text-align: start;
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    flex-direction: column;
+    left: 0;
+    width: 100%;
     line-height: 0.8em;
-
     font-size: 1vw;
-
     z-index: -1;
 }
+
 .bottom a {
     text-decoration: none;
     color: inherit;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../background.css">
+        <link rel="icon" href="../img/logo.png"
+    </head>
+    <body>
+        <div class="content">
+            <p id="title">ACMP - Solutions</p>
+            <div class="card">
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="bottom-left">
+                <h4>Credits:</h4>
+                <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - created this website</p>
+                <p><a href="https://twitter.com/kootoopas" target="_blank">kootoopas</a> - created background animation</p>
+            </div>
+            <div class="bottom-right">
+                <p>2024</p>
+            </div>
+        </div>
+
+    <script>
+        const urlParts = new URL(window.location.href).pathname.split("/");
+        let title = decodeURI(urlParts.pop().replace(/\.html$/, ""));
+        
+        let newTitle = '';
+        for (var i in title) {
+            if (i == 0 || title[i - 1] == ' ' && title[i] != 'и')
+                newTitle += title[i].toUpperCase();
+            else
+                newTitle += title[i];
+        }
+        
+        document.title = newTitle;
+        
+        const card = document.querySelector(".card");
+        let code = `Var
+x,a,b,c:int64;
+begin
+readln(x);
+a:=x div 10;
+b:=a*(a+1);
+c:=b*100+25;
+writeln(c);
+end.`;
+        
+        card.innerHTML = "<pre>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Нажмите, чтобы скопировать</p>';
+        
+        card.onclick = () => {
+            navigator.clipboard.writeText(code);
+            card.innerHTML = "<pre>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Скопировано</p>';
+        }
+
+        const topTitle = document.getElementById('title');
+        topTitle.textContent = newTitle;
+
+    </script>
+
+    </body>
+</html>

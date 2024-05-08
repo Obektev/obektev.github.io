@@ -66,10 +66,28 @@ html {
   &:required,&:invalid { box-shadow:none; }
 }
 
-.result-box ul {
-  padding: 5px 10px;
+.result-box {
+  max-height: 200px;
+  overflow-y: scroll;
 }
 
+.result-box ul {
+  padding: 5px 10px;
+  overflow-x: hidden;
+}
+
+.result-box::-webkit-scrollbar {
+  width: 16px;
+}
+.result-box::-webkit-scrollbar-track {
+  background-color: #222831;
+}
+.result-box::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: #31363F;
+}
 .result-box ul li {
   list-style: none;
   border-radius: 3px;

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../background.css">
+        <link rel="icon" href="../img/logo.png"
+    </head>
+    <body>
+        <div class="content">
+            <p id="title">ACMP - Solutions</p>
+            <div class="card">
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="bottom-left">
+                <h4>Credits:</h4>
+                <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - created this website</p>
+                <p><a href="https://twitter.com/kootoopas" target="_blank">kootoopas</a> - created background animation</p>
+            </div>
+            <div class="bottom-right">
+                <p>2024</p>
+            </div>
+        </div>
+
+    <script>
+        const urlParts = new URL(window.location.href).pathname.split("/");
+        let title = decodeURI(urlParts.pop().replace(/\.html$/, ""));
+        
+        let newTitle = '';
+        for (var i in title) {
+            if (i == 0 || title[i - 1] == ' ' && title[i] != 'и')
+                newTitle += title[i].toUpperCase();
+            else
+                newTitle += title[i];
+        }
+        
+        document.title = newTitle;
+        
+        const card = document.querySelector(".card");
+        let code = `#include <bits/stdc++.h>
+  
+using namespace std;
+  
+int main()
+{
+    string a,b,c;
+    cin >> a >> b >> c;
+    int a1 = a[0] - 64 - 1;
+    int a2 = a[1] - 48 - 1;
+  
+    int b1 = b[0] - 64 - 1;
+    int b2 = b[1] - 48 - 1;
+  
+    int c1 = c[0] - 64 - 1;
+    int c2 = c[1] - 48 - 1;
+  
+    int s[8][8] = {0};
+    for(int i = 0; i < 8; ++i)
+        for(int j = 0; j < 8; ++j){
+            if(abs(a1 - j) == abs(a2 - i))
+                s[i][j] = 1;
+            else
+                if(a1 == j || a2 == i)
+                    s[i][j] = 1;
+            else
+                if(b1 == j || b2 == i)
+                    s[i][j] = 1;
+            else
+                if((abs(c1 - j) == 1 && abs(c2 - i) == 2) || (abs(c1 - j) == 2 && abs(c2 - i) == 1))
+                    s[i][j] = 1;
+        }
+    s[a2][a1] = 0;
+    s[b2][b1] = 0;
+    s[c2][c1] = 0;
+    int k = 0;
+    for(int i = 0; i < 8; ++i){
+        for(int j = 0; j < 8; ++j)
+            if(s[i][j] == 1)
+                ++k;
+    }
+    cout << k;
+    return 0;
+}`;
+
+        code = code.replaceAll('<', '&lt').replaceAll('>', '&gt');
+
+        card.innerHTML = "<pre><code>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Нажмите, чтобы скопировать</p>';
+        
+        card.onclick = () => {
+            navigator.clipboard.writeText(code);
+            card.innerHTML = "<pre><code>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Скопировано</p>';
+        }
+
+        const topTitle = document.getElementById('title');
+        topTitle.textContent = newTitle;
+
+    </script>
+
+    </body>
+</html>

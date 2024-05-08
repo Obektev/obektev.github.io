@@ -1,15 +1,15 @@
+import { tasksInfo } from './tasks.js'
+
 let availableKeywords = [];
+
+for (var key in tasksInfo) {
+    availableKeywords.push(key);
+}
+
+console.log(availableKeywords);
 
 const resultsBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
-
-fetch('/get-json-files') // Make a GET request to the server
- .then(response => response.json()) // Parse the response as JSON
- .then(data => {
-    availableKeywords = data; // Update the availableKeywords array
-  })
- .catch(error => console.error('Error:', error)); // Catch any errors
-
 
 inputBox.onkeyup = function() {
     let result = [];
@@ -30,8 +30,16 @@ inputBox.onkeyup = function() {
 }
 
 function display(result) {
-    const content = result.map((list) => {
-        return "<li>" + list + "</li>";
+    const content = result.map((item) => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        li.addEventListener('click', function() {
+            window.open(tasksInfo[item], "_blank");
+        });
+        return li;
     });
-    resultsBox.innerHTML = "<ul>" + content.join('') + "</ul>";
+    const ul = document.createElement('ul');
+    ul.append(...content);
+    resultsBox.innerHTML = '';
+    resultsBox.appendChild(ul);
 }

@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Saver</title>
+    <style>
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code Saver</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="code">Code:</label>
+        <textarea id="code" name="code" required></textarea><br><br>
+        <button id="save-btn">Save to JSON file</button>
+    </form>
+
+    <script>
+        const saveBtn = document.getElementById('save-btn');
+        const codeTextarea = document.getElementById('code');
+        const nameInput = document.getElementById('name');
+
+        saveBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const code = codeTextarea.value.trim();
+            const name = nameInput.value.trim();
+
+            if (!name ||!code) {
+                alert('Please fill in both name and code fields');
+                return;
+            }
+
+            const json = { code };
+
+            try {
+                const blob = new Blob([JSON.stringify(json, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${name}.json`;
+                a.click();
+            } catch (error) {
+                console.error('Error saving file:', error);
+                alert('Error saving file. Please try again.');
+            }
+        });
+    </script>
+</body>
+</html>

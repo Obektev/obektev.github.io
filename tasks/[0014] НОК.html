@@ -56,7 +56,7 @@ cout<<temp/(a+b);
 
         code = code.replaceAll('<', '&lt').replaceAll('>', '&gt');
 
-        card.innerHTML = "<pre><code class="language-cpp">" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Нажмите, чтобы скопировать</p>';
+        card.innerHTML = "<pre><code>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Нажмите, чтобы скопировать</p>';
         
         card.onclick = () => {
             navigator.clipboard.writeText(code);

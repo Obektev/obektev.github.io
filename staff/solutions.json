@@ -1,7 +1,7 @@
 [
     {
         "id": "18102786",
-        "date": "11.11.2022 13:44:40",
+        "task_date": "11.11.2022 13:44:40",
         "task_number": "0040",
         "language": " python",
         "result": "Accepted",
@@ -10,7 +10,7 @@
     },
     {
         "id": "19938679",
-        "date": "25.09.2023 14:04:39",
+        "task_date": "25.09.2023 14:04:39",
         "task_number": "0015",
         "language": "c++",
         "result": "Accepted",
@@ -19,7 +19,7 @@
     },
     {
         "id": "18169472",
-        "date": "18.11.2022 10:15:50",
+        "task_date": "18.11.2022 10:15:50",
         "task_number": "0159",
         "language": "c++",
         "result": "Accepted",
@@ -28,7 +28,7 @@
     },
     {
         "id": "21499918",
-        "date": "06.05.2024 14:28:21",
+        "task_date": "06.05.2024 14:28:21",
         "task_number": "0187",
         "language": "c++",
         "result": "Accepted",
@@ -37,7 +37,7 @@
     },
     {
         "id": "14319517",
-        "date": "03.02.2021 12:46:44",
+        "task_date": "03.02.2021 12:46:44",
         "task_number": "0715",
         "language": "c++",
         "result": "Accepted",
@@ -46,7 +46,7 @@
     },
     {
         "id": "18100389",
-        "date": "11.11.2022 9:48:06",
+        "task_date": "11.11.2022 9:48:06",
         "task_number": "0986",
         "language": "c++",
         "result": "Accepted",
@@ -55,7 +55,7 @@
     },
     {
         "id": "18129521",
-        "date": "14.11.2022 10:30:21",
+        "task_date": "14.11.2022 10:30:21",
         "task_number": "0357",
         "language": "c++",
         "result": "Accepted",
@@ -64,7 +64,7 @@
     },
     {
         "id": "10261223",
-        "date": "18.03.2019 14:30:13",
+        "task_date": "18.03.2019 14:30:13",
         "task_number": "0940",
         "language": "pascal",
         "result": "Accepted",
@@ -73,7 +73,7 @@
     },
     {
         "id": "9613009",
-        "date": "13.12.2018 13:52:00",
+        "task_date": "13.12.2018 13:52:00",
         "task_number": "0025",
         "language": "pascal",
         "result": "Accepted",
@@ -82,7 +82,7 @@
     },
     {
         "id": "17727443",
-        "date": "30.09.2022 9:14:02",
+        "task_date": "30.09.2022 9:14:02",
         "task_number": "0693",
         "language": "c++",
         "result": "Accepted",
@@ -91,7 +91,7 @@
     },
     {
         "id": "14232322",
-        "date": "20.01.2021 12:36:39",
+        "task_date": "20.01.2021 12:36:39",
         "task_number": "0312",
         "language": "c++",
         "result": "Accepted",
@@ -100,7 +100,7 @@
     },
     {
         "id": "15494544",
-        "date": "24.09.2021 20:14:10",
+        "task_date": "24.09.2021 20:14:10",
         "task_number": "0147",
         "language": "c++",
         "result": "Accepted",
@@ -109,7 +109,7 @@
     },
     {
         "id": "14968595",
-        "date": "14.05.2021 19:08:36",
+        "task_date": "14.05.2021 19:08:36",
         "task_number": "0678",
         "language": "c++",
         "result": "Accepted",
@@ -118,7 +118,7 @@
     },
     {
         "id": "14622064",
-        "date": "12.03.2021 19:39:40",
+        "task_date": "12.03.2021 19:39:40",
         "task_number": "0254",
         "language": "c++",
         "result": "Accepted",
@@ -127,7 +127,7 @@
     },
     {
         "id": "17000870",
-        "date": "19.04.2022 12:08:40",
+        "task_date": "19.04.2022 12:08:40",
         "task_number": "1115",
         "language": "c++",
         "result": "Accepted",
@@ -136,7 +136,7 @@
     },
     {
         "id": "15497436",
-        "date": "25.09.2021 10:01:56",
+        "task_date": "25.09.2021 10:01:56",
         "task_number": "1110",
         "language": "c++",
         "result": "Accepted",
@@ -145,7 +145,7 @@
     },
     {
         "id": "18372413",
-        "date": "09.12.2022 9:45:04",
+        "task_date": "09.12.2022 9:45:04",
         "task_number": "0370",
         "language": "c++",
         "result": "Accepted",
@@ -154,7 +154,7 @@
     },
     {
         "id": "14232361",
-        "date": "20.01.2021 12:43:28",
+        "task_date": "20.01.2021 12:43:28",
         "task_number": "0854",
         "language": "c++",
         "result": "Accepted",
@@ -163,7 +163,7 @@
     },
     {
         "id": "10213680",
-        "date": "11.03.2019 10:46:58",
+        "task_date": "11.03.2019 10:46:58",
         "task_number": "0081",
         "language": "pascal",
         "result": "Accepted",
@@ -172,7 +172,7 @@
     },
     {
         "id": "15497451",
-        "date": "25.09.2021 10:02:50",
+        "task_date": "25.09.2021 10:02:50",
         "task_number": "1111",
         "language": "c++",
         "result": "Accepted",
@@ -181,7 +181,7 @@
     },
     {
         "id": "20160709",
-        "date": "21.10.2023 12:15:29",
+        "task_date": "21.10.2023 12:15:29",
         "task_number": "1675",
         "language": "c++",
         "result": "Accepted",
@@ -190,7 +190,7 @@
     },
     {
         "id": "18204633",
-        "date": "22.11.2022 12:42:11",
+        "task_date": "22.11.2022 12:42:11",
         "task_number": "1149",
         "language": "c++",
         "result": "Accepted",
@@ -199,7 +199,7 @@
     },
     {
         "id": "17273005",
-        "date": "12.06.2022 15:51:23",
+        "task_date": "12.06.2022 15:51:23",
         "task_number": "0027",
         "language": "c++",
         "result": "Accepted",
@@ -208,7 +208,7 @@
     },
     {
         "id": "10356970",
-        "date": "03.04.2019 14:54:17",
+        "task_date": "03.04.2019 14:54:17",
         "task_number": "0062",
         "language": "pascal",
         "result": "Accepted",
@@ -217,7 +217,7 @@
     },
     {
         "id": "16412365",
-        "date": "14.01.2022 12:53:35",
+        "task_date": "14.01.2022 12:53:35",
         "task_number": "1798",
         "language": "c++",
         "result": "Accepted",
@@ -226,7 +226,7 @@
     },
     {
         "id": "20112603",
-        "date": "16.10.2023 9:39:58",
+        "task_date": "16.10.2023 9:39:58",
         "task_number": "1198",
         "language": "c++",
         "result": "Accepted",
@@ -235,7 +235,7 @@
     },
     {
         "id": "20231162",
-        "date": "29.10.2023 16:58:23",
+        "task_date": "29.10.2023 16:58:23",
         "task_number": "0363",
         "language": " python",
         "result": "Accepted",
@@ -244,7 +244,7 @@
     },
     {
         "id": "14999446",
-        "date": "21.05.2021 19:53:57",
+        "task_date": "21.05.2021 19:53:57",
         "task_number": "0519",
         "language": "c++",
         "result": "Accepted",
@@ -253,7 +253,7 @@
     },
     {
         "id": "20121661",
-        "date": "17.10.2023 8:27:15",
+        "task_date": "17.10.2023 8:27:15",
         "task_number": "0906",
         "language": " python",
         "result": "Accepted",
@@ -262,7 +262,7 @@
     },
     {
         "id": "17921358",
-        "date": "21.10.2022 14:41:44",
+        "task_date": "21.10.2022 14:41:44",
         "task_number": "0274",
         "language": "c++",
         "result": "Accepted",
@@ -271,7 +271,7 @@
     },
     {
         "id": "9827798",
-        "date": "14.01.2019 14:40:17",
+        "task_date": "14.01.2019 14:40:17",
         "task_number": "0692",
         "language": "pascal",
         "result": "Accepted",
@@ -280,7 +280,7 @@
     },
     {
         "id": "19778242",
-        "date": "23.08.2023 12:01:29",
+        "task_date": "23.08.2023 12:01:29",
         "task_number": "1122",
         "language": "c++",
         "result": "Accepted",
@@ -289,7 +289,7 @@
     },
     {
         "id": "16461826",
-        "date": "22.01.2022 11:12:37",
+        "task_date": "22.01.2022 11:12:37",
         "task_number": "0141",
         "language": "c++",
         "result": "Accepted",
@@ -298,7 +298,7 @@
     },
     {
         "id": "20673092",
-        "date": "18.12.2023 15:00:45",
+        "task_date": "18.12.2023 15:00:45",
         "task_number": "0038",
         "language": "c++",
         "result": "Accepted",
@@ -307,7 +307,7 @@
     },
     {
         "id": "21106183",
-        "date": "23.02.2024 10:44:25",
+        "task_date": "23.02.2024 10:44:25",
         "task_number": "0168",
         "language": "c++",
         "result": "Accepted",
@@ -316,7 +316,7 @@
     },
     {
         "id": "18542798",
-        "date": "03.01.2023 19:43:42",
+        "task_date": "03.01.2023 19:43:42",
         "task_number": "1136",
         "language": "c++",
         "result": "Accepted",
@@ -325,7 +325,7 @@
     },
     {
         "id": "15773701",
-        "date": "23.10.2021 11:12:15",
+        "task_date": "23.10.2021 11:12:15",
         "task_number": "0899",
         "language": "c++",
         "result": "Accepted",
@@ -334,7 +334,7 @@
     },
     {
         "id": "15404013",
-        "date": "11.09.2021 10:31:53",
+        "task_date": "11.09.2021 10:31:53",
         "task_number": "0033",
         "language": "c++",
         "result": "Accepted",
@@ -343,7 +343,7 @@
     },
     {
         "id": "14940620",
-        "date": "07.05.2021 20:32:47",
+        "task_date": "07.05.2021 20:32:47",
         "task_number": "0418",
         "language": "c++",
         "result": "Accepted",
@@ -352,7 +352,7 @@
     },
     {
         "id": "10277014",
-        "date": "20.03.2019 14:23:48",
+        "task_date": "20.03.2019 14:23:48",
         "task_number": "0233",
         "language": "Free Pascal",
         "result": "Accepted",
@@ -361,7 +361,7 @@
     },
     {
         "id": "20112315",
-        "date": "16.10.2023 9:02:14",
+        "task_date": "16.10.2023 9:02:14",
         "task_number": "1146",
         "language": "c++",
         "result": "Accepted",
@@ -370,7 +370,7 @@
     },
     {
         "id": "18397031",
-        "date": "12.12.2022 9:47:17",
+        "task_date": "12.12.2022 9:47:17",
         "task_number": "0192",
         "language": "c++",
         "result": "Accepted",
@@ -379,7 +379,7 @@
     },
     {
         "id": "9827881",
-        "date": "14.01.2019 14:49:16",
+        "task_date": "14.01.2019 14:49:16",
         "task_number": "0907",
         "language": "pascal",
         "result": "Accepted",
@@ -388,7 +388,7 @@
     },
     {
         "id": "17273260",
-        "date": "12.06.2022 17:41:00",
+        "task_date": "12.06.2022 17:41:00",
         "task_number": "0277",
         "language": "c++",
         "result": "Accepted",
@@ -397,7 +397,7 @@
     },
     {
         "id": "14797909",
-        "date": "09.04.2021 20:04:09",
+        "task_date": "09.04.2021 20:04:09",
         "task_number": "0596",
         "language": "c++",
         "result": "Accepted",
@@ -406,7 +406,7 @@
     },
     {
         "id": "14312640",
-        "date": "02.02.2021 14:00:15",
+        "task_date": "02.02.2021 14:00:15",
         "task_number": "0822",
         "language": "c++",
         "result": "Accepted",
@@ -415,7 +415,7 @@
     },
     {
         "id": "19944411",
-        "date": "26.09.2023 8:37:00",
+        "task_date": "26.09.2023 8:37:00",
         "task_number": "1202",
         "language": "c++",
         "result": "Accepted",
@@ -424,7 +424,7 @@
     },
     {
         "id": "17315910",
-        "date": "24.06.2022 11:04:23",
+        "task_date": "24.06.2022 11:04:23",
         "task_number": "0675",
         "language": "c++",
         "result": "Accepted",
@@ -433,7 +433,7 @@
     },
     {
         "id": "16873924",
-        "date": "29.03.2022 13:00:12",
+        "task_date": "29.03.2022 13:00:12",
         "task_number": "0758",
         "language": "c++",
         "result": "Accepted",
@@ -442,7 +442,7 @@
     },
     {
         "id": "14940393",
-        "date": "07.05.2021 19:19:05",
+        "task_date": "07.05.2021 19:19:05",
         "task_number": "0997",
         "language": "c++",
         "result": "Accepted",
@@ -451,7 +451,7 @@
     },
     {
         "id": "9828028",
-        "date": "14.01.2019 15:01:57",
+        "task_date": "14.01.2019 15:01:57",
         "task_number": "0970",
         "language": "pascal",
         "result": "Accepted",
@@ -460,7 +460,7 @@
     },
     {
         "id": "19978215",
-        "date": "30.09.2023 13:00:17",
+        "task_date": "30.09.2023 13:00:17",
         "task_number": "1211",
         "language": "c++",
         "result": "Accepted",
@@ -469,7 +469,7 @@
     },
     {
         "id": "10230923",
-        "date": "13.03.2019 14:52:10",
+        "task_date": "13.03.2019 14:52:10",
         "task_number": "0529",
         "language": "pascal",
         "result": "Accepted",
@@ -478,7 +478,7 @@
     },
     {
         "id": "18161975",
-        "date": "17.11.2022 13:14:18",
+        "task_date": "17.11.2022 13:14:18",
         "task_number": "0639",
         "language": "c++",
         "result": "Accepted",
@@ -487,7 +487,7 @@
     },
     {
         "id": "18811549",
-        "date": "14.02.2023 12:08:38",
+        "task_date": "14.02.2023 12:08:38",
         "task_number": "0803",
         "language": "c++",
         "result": "Accepted",
@@ -496,7 +496,7 @@
     },
     {
         "id": "17949759",
-        "date": "24.10.2022 21:37:42",
+        "task_date": "24.10.2022 21:37:42",
         "task_number": "0095",
         "language": " python",
         "result": "Accepted",
@@ -505,7 +505,7 @@
     },
     {
         "id": "9859667",
-        "date": "18.01.2019 15:10:45",
+        "task_date": "18.01.2019 15:10:45",
         "task_number": "0597",
         "language": "pascal",
         "result": "Accepted",
@@ -514,7 +514,7 @@
     },
     {
         "id": "10244147",
-        "date": "15.03.2019 15:18:30",
+        "task_date": "15.03.2019 15:18:30",
         "task_number": "0606",
         "language": "pascal",
         "result": "Accepted",
@@ -523,7 +523,7 @@
     },
     {
         "id": "21125255",
-        "date": "26.02.2024 15:23:14",
+        "task_date": "26.02.2024 15:23:14",
         "task_number": "0683",
         "language": "c++",
         "result": "Accepted",
@@ -532,7 +532,7 @@
     },
     {
         "id": "18128815",
-        "date": "14.11.2022 9:09:54",
+        "task_date": "14.11.2022 9:09:54",
         "task_number": "0246",
         "language": "c++",
         "result": "Accepted",
@@ -541,7 +541,7 @@
     },
     {
         "id": "19991003",
-        "date": "02.10.2023 14:42:45",
+        "task_date": "02.10.2023 14:42:45",
         "task_number": "0151",
         "language": "c++",
         "result": "Accepted",
@@ -550,7 +550,7 @@
     },
     {
         "id": "16980918",
-        "date": "16.04.2022 10:38:16",
+        "task_date": "16.04.2022 10:38:16",
         "task_number": "0553",
         "language": "c++",
         "result": "Accepted",
@@ -559,7 +559,7 @@
     },
     {
         "id": "18542728",
-        "date": "03.01.2023 19:28:21",
+        "task_date": "03.01.2023 19:28:21",
         "task_number": "1133",
         "language": "c++",
         "result": "Accepted",
@@ -568,7 +568,7 @@
     },
     {
         "id": "14968646",
-        "date": "14.05.2021 19:25:23",
+        "task_date": "14.05.2021 19:25:23",
         "task_number": "0514",
         "language": "c++",
         "result": "Accepted",
@@ -577,7 +577,7 @@
     },
     {
         "id": "14573746",
-        "date": "05.03.2021 19:39:58",
+        "task_date": "05.03.2021 19:39:58",
         "task_number": "0543",
         "language": "c++",
         "result": "Accepted",
@@ -586,7 +586,7 @@
     },
     {
         "id": "20494252",
-        "date": "27.11.2023 15:31:11",
+        "task_date": "27.11.2023 15:31:11",
         "task_number": "0349",
         "language": "c++",
         "result": "Accepted",
@@ -595,7 +595,7 @@
     },
     {
         "id": "14797703",
-        "date": "09.04.2021 19:24:35",
+        "task_date": "09.04.2021 19:24:35",
         "task_number": "0816",
         "language": "c++",
         "result": "Accepted",
@@ -604,7 +604,7 @@
     },
     {
         "id": "10007368",
-        "date": "06.02.2019 14:12:24",
+        "task_date": "06.02.2019 14:12:24",
         "task_number": "0066",
         "language": "pascal",
         "result": "Accepted",
@@ -613,7 +613,7 @@
     },
     {
         "id": "21124386",
-        "date": "26.02.2024 14:17:04",
+        "task_date": "26.02.2024 14:17:04",
         "task_number": "0329",
         "language": "c++",
         "result": "Accepted",
@@ -622,7 +622,7 @@
     },
     {
         "id": "9612701",
-        "date": "13.12.2018 13:27:20",
+        "task_date": "13.12.2018 13:27:20",
         "task_number": "0903",
         "language": "pascal",
         "result": "Accepted",
@@ -631,7 +631,7 @@
     },
     {
         "id": "14547417",
-        "date": "02.03.2021 13:59:37",
+        "task_date": "02.03.2021 13:59:37",
         "task_number": "0779",
         "language": "c++",
         "result": "Accepted",
@@ -640,7 +640,7 @@
     },
     {
         "id": "15025579",
-        "date": "28.05.2021 20:14:02",
+        "task_date": "28.05.2021 20:14:02",
         "task_number": "0665",
         "language": "c++",
         "result": "Accepted",
@@ -649,7 +649,7 @@
     },
     {
         "id": "15630203",
-        "date": "09.10.2021 12:31:04",
+        "task_date": "09.10.2021 12:31:04",
         "task_number": "0032",
         "language": "c++",
         "result": "Accepted",
@@ -658,7 +658,7 @@
     },
     {
         "id": "19994490",
-        "date": "02.10.2023 21:24:14",
+        "task_date": "02.10.2023 21:24:14",
         "task_number": "0185",
         "language": "c++",
         "result": "Accepted",
@@ -667,7 +667,7 @@
     },
     {
         "id": "21030969",
-        "date": "12.02.2024 14:19:24",
+        "task_date": "12.02.2024 14:19:24",
         "task_number": "0481",
         "language": "c++",
         "result": "Accepted",
@@ -676,7 +676,7 @@
     },
     {
         "id": "9827684",
-        "date": "14.01.2019 14:27:18",
+        "task_date": "14.01.2019 14:27:18",
         "task_number": "0106",
         "language": "pascal",
         "result": "Accepted",
@@ -685,7 +685,7 @@
     },
     {
         "id": "10066260",
-        "date": "15.02.2019 15:46:47",
+        "task_date": "15.02.2019 15:46:47",
         "task_number": "0950",
         "language": "pascal",
         "result": "Accepted",
@@ -694,7 +694,7 @@
     },
     {
         "id": "10230505",
-        "date": "13.03.2019 14:16:04",
+        "task_date": "13.03.2019 14:16:04",
         "task_number": "0035",
         "language": "pascal",
         "result": "Accepted",
@@ -703,7 +703,7 @@
     },
     {
         "id": "20493601",
-        "date": "27.11.2023 14:27:41",
+        "task_date": "27.11.2023 14:27:41",
         "task_number": "0113",
         "language": "c++",
         "result": "Accepted",
@@ -712,7 +712,7 @@
     },
     {
         "id": "20098468",
-        "date": "14.10.2023 11:46:37",
+        "task_date": "14.10.2023 11:46:37",
         "task_number": "1131",
         "language": "c++",
         "result": "Accepted",
@@ -721,7 +721,7 @@
     },
     {
         "id": "17659229",
-        "date": "22.09.2022 14:38:04",
+        "task_date": "22.09.2022 14:38:04",
         "task_number": "0642",
         "language": "c++",
         "result": "Accepted",
@@ -730,7 +730,7 @@
     },
     {
         "id": "18256711",
-        "date": "28.11.2022 9:17:04",
+        "task_date": "28.11.2022 9:17:04",
         "task_number": "0028",
         "language": "c++",
         "result": "Accepted",
@@ -739,7 +739,7 @@
     },
     {
         "id": "17326478",
-        "date": "27.06.2022 13:31:59",
+        "task_date": "27.06.2022 13:31:59",
         "task_number": "0643",
         "language": "c++",
         "result": "Accepted",
@@ -748,7 +748,7 @@
     },
     {
         "id": "17658758",
-        "date": "22.09.2022 13:36:19",
+        "task_date": "22.09.2022 13:36:19",
         "task_number": "0293",
         "language": "c++",
         "result": "Accepted",
@@ -757,7 +757,7 @@
     },
     {
         "id": "15833069",
-        "date": "29.10.2021 15:26:29",
+        "task_date": "29.10.2021 15:26:29",
         "task_number": "0817",
         "language": "c++",
         "result": "Accepted",
@@ -766,7 +766,7 @@
     },
     {
         "id": "19778252",
-        "date": "23.08.2023 12:03:07",
+        "task_date": "23.08.2023 12:03:07",
         "task_number": "1123",
         "language": "c++",
         "result": "Accepted",
@@ -775,7 +775,7 @@
     },
     {
         "id": "9810566",
-        "date": "11.01.2019 15:32:30",
+        "task_date": "11.01.2019 15:32:30",
         "task_number": "0754",
         "language": "pascal",
         "result": "Accepted",
@@ -784,7 +784,7 @@
     },
     {
         "id": "10191193",
-        "date": "06.03.2019 15:01:36",
+        "task_date": "06.03.2019 15:01:36",
         "task_number": "0850",
         "language": "pascal",
         "result": "Accepted",
@@ -793,7 +793,7 @@
     },
     {
         "id": "14781125",
-        "date": "07.04.2021 12:32:01",
+        "task_date": "07.04.2021 12:32:01",
         "task_number": "0046",
         "language": "c++",
         "result": "Accepted",
@@ -802,7 +802,7 @@
     },
     {
         "id": "14338878",
-        "date": "05.02.2021 19:28:29",
+        "task_date": "05.02.2021 19:28:29",
         "task_number": "0120",
         "language": "c++",
         "result": "Accepted",
@@ -811,7 +811,7 @@
     },
     {
         "id": "10550715",
-        "date": "03.05.2019 14:38:29",
+        "task_date": "03.05.2019 14:38:29",
         "task_number": "0327",
         "language": "pascal",
         "result": "Accepted",
@@ -820,7 +820,7 @@
     },
     {
         "id": "10463001",
-        "date": "19.04.2019 8:53:27",
+        "task_date": "19.04.2019 8:53:27",
         "task_number": "0942",
         "language": "pascal",
         "result": "Accepted",
@@ -829,7 +829,7 @@
     },
     {
         "id": "21559119",
-        "date": "21.05.2024 13:42:37",
+        "task_date": "21.05.2024 13:42:37",
         "task_number": "0001",
         "language": "c++",
         "result": "Accepted",
@@ -838,7 +838,7 @@
     },
     {
         "id": "11377986",
-        "date": "17.10.2019 12:42:38",
+        "task_date": "17.10.2019 12:42:38",
         "task_number": "0108",
         "language": "c++",
         "result": "Accepted",
@@ -847,7 +847,7 @@
     },
     {
         "id": "9654152",
-        "date": "18.12.2018 14:32:54",
+        "task_date": "18.12.2018 14:32:54",
         "task_number": "0008",
         "language": "pascal",
         "result": "Accepted",
@@ -856,7 +856,7 @@
     },
     {
         "id": "10032569",
-        "date": "10.02.2019 11:32:06",
+        "task_date": "10.02.2019 11:32:06",
         "task_number": "0819",
         "language": "pascal",
         "result": "Accepted",
@@ -865,7 +865,7 @@
     },
     {
         "id": "16006489",
-        "date": "19.11.2021 12:24:14",
+        "task_date": "19.11.2021 12:24:14",
         "task_number": "0029",
         "language": "c++",
         "result": "Accepted",
@@ -874,7 +874,7 @@
     },
     {
         "id": "16412253",
-        "date": "14.01.2022 12:41:14",
+        "task_date": "14.01.2022 12:41:14",
         "task_number": "0009",
         "language": "c++",
         "result": "Accepted",
@@ -883,7 +883,7 @@
     },
     {
         "id": "17273066",
-        "date": "12.06.2022 16:12:02",
+        "task_date": "12.06.2022 16:12:02",
         "task_number": "0085",
         "language": "c++",
         "result": "Accepted",
@@ -892,7 +892,7 @@
     },
     {
         "id": "20112429",
-        "date": "16.10.2023 9:13:17",
+        "task_date": "16.10.2023 9:13:17",
         "task_number": "1152",
         "language": "c++",
         "result": "Accepted",
@@ -901,7 +901,7 @@
     },
     {
         "id": "15951501",
-        "date": "13.11.2021 11:19:17",
+        "task_date": "13.11.2021 11:19:17",
         "task_number": "0165",
         "language": "c++",
         "result": "Accepted",
@@ -910,7 +910,7 @@
     },
     {
         "id": "9810477",
-        "date": "11.01.2019 15:17:39",
+        "task_date": "11.01.2019 15:17:39",
         "task_number": "0092",
         "language": "pascal",
         "result": "Accepted",
@@ -919,7 +919,7 @@
     },
     {
         "id": "16873626",
-        "date": "29.03.2022 12:31:19",
+        "task_date": "29.03.2022 12:31:19",
         "task_number": "1715",
         "language": "c++",
         "result": "Accepted",
@@ -928,7 +928,7 @@
     },
     {
         "id": "20178416",
-        "date": "23.10.2023 14:57:41",
+        "task_date": "23.10.2023 14:57:41",
         "task_number": "0268",
         "language": "c++",
         "result": "Accepted",
@@ -937,7 +937,7 @@
     },
     {
         "id": "14999518",
-        "date": "21.05.2021 20:22:22",
+        "task_date": "21.05.2021 20:22:22",
         "task_number": "0285",
         "language": "c++",
         "result": "Accepted",
@@ -946,7 +946,7 @@
     },
     {
         "id": "19944734",
-        "date": "26.09.2023 9:24:39",
+        "task_date": "26.09.2023 9:24:39",
         "task_number": "1204",
         "language": "c++",
         "result": "Accepted",
@@ -955,7 +955,7 @@
     },
     {
         "id": "19995989",
-        "date": "03.10.2023 8:34:47",
+        "task_date": "03.10.2023 8:34:47",
         "task_number": "1317",
         "language": "c++",
         "result": "Accepted",
@@ -964,7 +964,7 @@
     },
     {
         "id": "18172336",
-        "date": "18.11.2022 14:52:21",
+        "task_date": "18.11.2022 14:52:21",
         "task_number": "0250",
         "language": "c++",
         "result": "Accepted",
@@ -973,7 +973,7 @@
     },
     {
         "id": "20087774",
-        "date": "13.10.2023 10:13:15",
+        "task_date": "13.10.2023 10:13:15",
         "task_number": "1236",
         "language": "c++",
         "result": "Accepted",
@@ -982,7 +982,7 @@
     },
     {
         "id": "17043403",
-        "date": "26.04.2022 12:12:43",
+        "task_date": "26.04.2022 12:12:43",
         "task_number": "1117",
         "language": "c++",
         "result": "Accepted",
@@ -991,7 +991,7 @@
     },
     {
         "id": "17921053",
-        "date": "21.10.2022 14:12:57",
+        "task_date": "21.10.2022 14:12:57",
         "task_number": "0231",
         "language": "c++",
         "result": "Accepted",
@@ -1000,7 +1000,7 @@
     },
     {
         "id": "18484914",
-        "date": "23.12.2022 11:04:27",
+        "task_date": "23.12.2022 11:04:27",
         "task_number": "0203",
         "language": "c++",
         "result": "Accepted",
@@ -1009,7 +1009,7 @@
     },
     {
         "id": "10129897",
-        "date": "25.02.2019 14:20:55",
+        "task_date": "25.02.2019 14:20:55",
         "task_number": "0697",
         "language": "pascal",
         "result": "Accepted",
@@ -1018,7 +1018,7 @@
     },
     {
         "id": "17658567",
-        "date": "22.09.2022 13:11:26",
+        "task_date": "22.09.2022 13:11:26",
         "task_number": "0336",
         "language": "c++",
         "result": "Accepted",
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "21031655",
-        "date": "12.02.2024 15:15:19",
+        "task_date": "12.02.2024 15:15:19",
         "task_number": "0123",
         "language": "c++",
         "result": "Accepted",
@@ -1036,7 +1036,7 @@
     },
     {
         "id": "20933886",
-        "date": "29.01.2024 15:29:41",
+        "task_date": "29.01.2024 15:29:41",
         "task_number": "0273",
         "language": "c++",
         "result": "Accepted",
@@ -1045,7 +1045,7 @@
     },
     {
         "id": "16290376",
-        "date": "22.12.2021 12:26:28",
+        "task_date": "22.12.2021 12:26:28",
         "task_number": "0006",
         "language": "c++",
         "result": "Accepted",
@@ -1054,7 +1054,7 @@
     },
     {
         "id": "16461407",
-        "date": "22.01.2022 10:27:50",
+        "task_date": "22.01.2022 10:27:50",
         "task_number": "0149",
         "language": "c++",
         "result": "Accepted",
@@ -1063,7 +1063,7 @@
     },
     {
         "id": "18204618",
-        "date": "22.11.2022 12:41:19",
+        "task_date": "22.11.2022 12:41:19",
         "task_number": "1151",
         "language": "c++",
         "result": "Accepted",
@@ -1072,7 +1072,7 @@
     },
     {
         "id": "15444868",
-        "date": "17.09.2021 20:35:32",
+        "task_date": "17.09.2021 20:35:32",
         "task_number": "0163",
         "language": "c++",
         "result": "Accepted",
@@ -1081,7 +1081,7 @@
     },
     {
         "id": "18485145",
-        "date": "23.12.2022 11:39:22",
+        "task_date": "23.12.2022 11:39:22",
         "task_number": "0039",
         "language": "c++",
         "result": "Accepted",
@@ -1090,7 +1090,7 @@
     },
     {
         "id": "15951914",
-        "date": "13.11.2021 11:54:26",
+        "task_date": "13.11.2021 11:54:26",
         "task_number": "0114",
         "language": "c++",
         "result": "Accepted",
@@ -1099,7 +1099,7 @@
     },
     {
         "id": "9645778",
-        "date": "17.12.2018 15:00:05",
+        "task_date": "17.12.2018 15:00:05",
         "task_number": "0021",
         "language": "pascal",
         "result": "Accepted",
@@ -1108,7 +1108,7 @@
     },
     {
         "id": "14882174",
-        "date": "23.04.2021 20:24:57",
+        "task_date": "23.04.2021 20:24:57",
         "task_number": "0984",
         "language": "c++",
         "result": "Accepted",
@@ -1117,7 +1117,7 @@
     },
     {
         "id": "10343887",
-        "date": "01.04.2019 15:07:10",
+        "task_date": "01.04.2019 15:07:10",
         "task_number": "0818",
         "language": "pascal",
         "result": "Accepted",
@@ -1126,7 +1126,7 @@
     },
     {
         "id": "18281738",
-        "date": "30.11.2022 14:29:23",
+        "task_date": "30.11.2022 14:29:23",
         "task_number": "0207",
         "language": "c++",
         "result": "Accepted",
@@ -1135,7 +1135,7 @@
     },
     {
         "id": "15690786",
-        "date": "14.10.2021 15:21:25",
+        "task_date": "14.10.2021 15:21:25",
         "task_number": "0475",
         "language": "c++",
         "result": "Accepted",
@@ -1144,7 +1144,7 @@
     },
     {
         "id": "17273110",
-        "date": "12.06.2022 16:27:05",
+        "task_date": "12.06.2022 16:27:05",
         "task_number": "0952",
         "language": "c++",
         "result": "Accepted",
@@ -1153,7 +1153,7 @@
     },
     {
         "id": "18171277",
-        "date": "18.11.2022 13:29:12",
+        "task_date": "18.11.2022 13:29:12",
         "task_number": "0785",
         "language": "c++",
         "result": "Accepted",
@@ -1162,7 +1162,7 @@
     },
     {
         "id": "18092966",
-        "date": "10.11.2022 13:54:45",
+        "task_date": "10.11.2022 13:54:45",
         "task_number": "0482",
         "language": "c++",
         "result": "Accepted",
@@ -1171,7 +1171,7 @@
     },
     {
         "id": "18093315",
-        "date": "10.11.2022 14:19:43",
+        "task_date": "10.11.2022 14:19:43",
         "task_number": "0577",
         "language": "c++",
         "result": "Accepted",
@@ -1180,7 +1180,7 @@
     },
     {
         "id": "15444790",
-        "date": "17.09.2021 20:18:43",
+        "task_date": "17.09.2021 20:18:43",
         "task_number": "1237",
         "language": "c++",
         "result": "Accepted",
@@ -1189,7 +1189,7 @@
     },
     {
         "id": "12477971",
-        "date": "29.02.2020 20:02:10",
+        "task_date": "29.02.2020 20:02:10",
         "task_number": "0361",
         "language": "c++",
         "result": "Accepted",
@@ -1198,7 +1198,7 @@
     },
     {
         "id": "18484680",
-        "date": "23.12.2022 10:30:01",
+        "task_date": "23.12.2022 10:30:01",
         "task_number": "0491",
         "language": "c++",
         "result": "Accepted",
@@ -1207,7 +1207,7 @@
     },
     {
         "id": "15774742",
-        "date": "23.10.2021 12:25:06",
+        "task_date": "23.10.2021 12:25:06",
         "task_number": "0945",
         "language": "c++",
         "result": "Accepted",
@@ -1216,7 +1216,7 @@
     },
     {
         "id": "17273228",
-        "date": "12.06.2022 17:20:25",
+        "task_date": "12.06.2022 17:20:25",
         "task_number": "0119",
         "language": "c++",
         "result": "Accepted",
@@ -1225,7 +1225,7 @@
     },
     {
         "id": "15773418",
-        "date": "23.10.2021 10:50:05",
+        "task_date": "23.10.2021 10:50:05",
         "task_number": "0279",
         "language": "c++",
         "result": "Accepted",
@@ -1234,7 +1234,7 @@
     },
     {
         "id": "17273157",
-        "date": "12.06.2022 16:47:00",
+        "task_date": "12.06.2022 16:47:00",
         "task_number": "0394",
         "language": "c++",
         "result": "Accepted",
@@ -1243,7 +1243,7 @@
     },
     {
         "id": "15877876",
-        "date": "04.11.2021 11:48:36",
+        "task_date": "04.11.2021 11:48:36",
         "task_number": "0130",
         "language": "c++",
         "result": "Accepted",
@@ -1252,7 +1252,7 @@
     },
     {
         "id": "20672781",
-        "date": "18.12.2023 14:24:20",
+        "task_date": "18.12.2023 14:24:20",
         "task_number": "0407",
         "language": "c++",
         "result": "Accepted",
@@ -1261,7 +1261,7 @@
     },
     {
         "id": "21555665",
-        "date": "20.05.2024 15:18:16",
+        "task_date": "20.05.2024 15:18:16",
         "task_number": "0083",
         "language": "c++",
         "result": "Accepted",
@@ -1270,7 +1270,7 @@
     },
     {
         "id": "19994180",
-        "date": "02.10.2023 20:28:06",
+        "task_date": "02.10.2023 20:28:06",
         "task_number": "1360",
         "language": "c++",
         "result": "Accepted",
@@ -1279,7 +1279,7 @@
     },
     {
         "id": "9654282",
-        "date": "18.12.2018 14:49:56",
+        "task_date": "18.12.2018 14:49:56",
         "task_number": "0061",
         "language": "pascal",
         "result": "Accepted",
@@ -1288,7 +1288,7 @@
     },
     {
         "id": "9826476",
-        "date": "14.01.2019 11:08:15",
+        "task_date": "14.01.2019 11:08:15",
         "task_number": "0003",
         "language": "pascal",
         "result": "Accepted",
@@ -1297,7 +1297,7 @@
     },
     {
         "id": "19944474",
-        "date": "26.09.2023 8:47:04",
+        "task_date": "26.09.2023 8:47:04",
         "task_number": "1203",
         "language": "c++",
         "result": "Accepted",
@@ -1306,7 +1306,7 @@
     },
     {
         "id": "17025134",
-        "date": "23.04.2022 10:47:11",
+        "task_date": "23.04.2022 10:47:11",
         "task_number": "0122",
         "language": "c++",
         "result": "Accepted",
@@ -1315,7 +1315,7 @@
     },
     {
         "id": "15404225",
-        "date": "11.09.2021 10:51:19",
+        "task_date": "11.09.2021 10:51:19",
         "task_number": "0935",
         "language": "c++",
         "result": "Accepted",
@@ -1324,7 +1324,7 @@
     },
     {
         "id": "18374447",
-        "date": "09.12.2022 13:31:11",
+        "task_date": "09.12.2022 13:31:11",
         "task_number": "0172",
         "language": " python",
         "result": "Accepted",
@@ -1333,7 +1333,7 @@
     },
     {
         "id": "19977816",
-        "date": "30.09.2023 12:15:28",
+        "task_date": "30.09.2023 12:15:28",
         "task_number": "1711",
         "language": "c++",
         "result": "Accepted",
@@ -1342,7 +1342,7 @@
     },
     {
         "id": "14823695",
-        "date": "14.04.2021 12:23:02",
+        "task_date": "14.04.2021 12:23:02",
         "task_number": "0026",
         "language": "c++",
         "result": "Accepted",
@@ -1351,7 +1351,7 @@
     },
     {
         "id": "20112366",
-        "date": "16.10.2023 9:06:48",
+        "task_date": "16.10.2023 9:06:48",
         "task_number": "1150",
         "language": "c++",
         "result": "Accepted",
@@ -1360,7 +1360,7 @@
     },
     {
         "id": "17025873",
-        "date": "23.04.2022 12:34:30",
+        "task_date": "23.04.2022 12:34:30",
         "task_number": "0368",
         "language": "c++",
         "result": "Accepted",
@@ -1369,7 +1369,7 @@
     },
     {
         "id": "17877003",
-        "date": "16.10.2022 19:45:48",
+        "task_date": "16.10.2022 19:45:48",
         "task_number": "0395",
         "language": "c++",
         "result": "Accepted",
@@ -1378,7 +1378,7 @@
     },
     {
         "id": "18461699",
-        "date": "20.12.2022 11:59:19",
+        "task_date": "20.12.2022 11:59:19",
         "task_number": "0124",
         "language": "c++",
         "result": "Accepted",
@@ -1387,7 +1387,7 @@
     },
     {
         "id": "20160774",
-        "date": "21.10.2023 12:21:41",
+        "task_date": "21.10.2023 12:21:41",
         "task_number": "0554",
         "language": "c++",
         "result": "Accepted",
@@ -1396,7 +1396,7 @@
     },
     {
         "id": "15447229",
-        "date": "18.09.2021 10:50:25",
+        "task_date": "18.09.2021 10:50:25",
         "task_number": "0036",
         "language": "c++",
         "result": "Accepted",
@@ -1405,7 +1405,7 @@
     },
     {
         "id": "20133440",
-        "date": "18.10.2023 13:10:50",
+        "task_date": "18.10.2023 13:10:50",
         "task_number": "0011",
         "language": " python",
         "result": "Accepted",
@@ -1414,7 +1414,7 @@
     },
     {
         "id": "20493916",
-        "date": "27.11.2023 14:53:27",
+        "task_date": "27.11.2023 14:53:27",
         "task_number": "0471",
         "language": "java",
         "result": "Accepted",
@@ -1423,7 +1423,7 @@
     },
     {
         "id": "14652106",
-        "date": "16.03.2021 14:29:38",
+        "task_date": "16.03.2021 14:29:38",
         "task_number": "0019",
         "language": "c++",
         "result": "Accepted",
@@ -1432,7 +1432,7 @@
     },
     {
         "id": "10261354",
-        "date": "18.03.2019 14:41:06",
+        "task_date": "18.03.2019 14:41:06",
         "task_number": "0948",
         "language": "pascal",
         "result": "Accepted",
@@ -1441,7 +1441,7 @@
     },
     {
         "id": "18542814",
-        "date": "03.01.2023 19:48:08",
+        "task_date": "03.01.2023 19:48:08",
         "task_number": "1137",
         "language": "c++",
         "result": "Accepted",
@@ -1450,7 +1450,7 @@
     },
     {
         "id": "20231170",
-        "date": "29.10.2023 16:59:41",
+        "task_date": "29.10.2023 16:59:41",
         "task_number": "1737",
         "language": " python",
         "result": "Accepted",
@@ -1459,7 +1459,7 @@
     },
     {
         "id": "15775269",
-        "date": "23.10.2021 12:58:36",
+        "task_date": "23.10.2021 12:58:36",
         "task_number": "0753",
         "language": "c++",
         "result": "Accepted",
@@ -1468,7 +1468,7 @@
     },
     {
         "id": "14968677",
-        "date": "14.05.2021 19:35:59",
+        "task_date": "14.05.2021 19:35:59",
         "task_number": "0094",
         "language": "c++",
         "result": "Accepted",
@@ -1477,7 +1477,7 @@
     },
     {
         "id": "9697134",
-        "date": "23.12.2018 17:05:27",
+        "task_date": "23.12.2018 17:05:27",
         "task_number": "0539",
         "language": "pascal",
         "result": "Accepted",
@@ -1486,7 +1486,7 @@
     },
     {
         "id": "16855572",
-        "date": "26.03.2022 10:48:17",
+        "task_date": "26.03.2022 10:48:17",
         "task_number": "1080",
         "language": "c++",
         "result": "Accepted",
@@ -1495,7 +1495,7 @@
     },
     {
         "id": "18542786",
-        "date": "03.01.2023 19:40:37",
+        "task_date": "03.01.2023 19:40:37",
         "task_number": "1135",
         "language": "c++",
         "result": "Accepted",
@@ -1504,7 +1504,7 @@
     },
     {
         "id": "20099235",
-        "date": "14.10.2023 12:52:31",
+        "task_date": "14.10.2023 12:52:31",
         "task_number": "1456",
         "language": "c++",
         "result": "Accepted",
@@ -1513,7 +1513,7 @@
     },
     {
         "id": "15497499",
-        "date": "25.09.2021 10:06:28",
+        "task_date": "25.09.2021 10:06:28",
         "task_number": "1113",
         "language": "c++",
         "result": "Accepted",
@@ -1522,7 +1522,7 @@
     },
     {
         "id": "14651936",
-        "date": "16.03.2021 14:17:50",
+        "task_date": "16.03.2021 14:17:50",
         "task_number": "0895",
         "language": "c++",
         "result": "Accepted",
@@ -1531,7 +1531,7 @@
     },
     {
         "id": "19997793",
-        "date": "03.10.2023 12:21:48",
+        "task_date": "03.10.2023 12:21:48",
         "task_number": "0783",
         "language": "c++",
         "result": "Accepted",
@@ -1540,7 +1540,7 @@
     },
     {
         "id": "14810087",
-        "date": "12.04.2021 13:16:46",
+        "task_date": "12.04.2021 13:16:46",
         "task_number": "0637",
         "language": "c++",
         "result": "Accepted",
@@ -1549,7 +1549,7 @@
     },
     {
         "id": "15706949",
-        "date": "16.10.2021 10:40:37",
+        "task_date": "16.10.2021 10:40:37",
         "task_number": "0017",
         "language": "c++",
         "result": "Accepted",
@@ -1558,7 +1558,7 @@
     },
     {
         "id": "17309713",
-        "date": "22.06.2022 18:21:12",
+        "task_date": "22.06.2022 18:21:12",
         "task_number": "0949",
         "language": "c++",
         "result": "Accepted",
@@ -1567,7 +1567,7 @@
     },
     {
         "id": "14210158",
-        "date": "16.01.2021 9:49:54",
+        "task_date": "16.01.2021 9:49:54",
         "task_number": "0350",
         "language": "c++",
         "result": "Accepted",
@@ -1576,7 +1576,7 @@
     },
     {
         "id": "18542840",
-        "date": "03.01.2023 19:57:19",
+        "task_date": "03.01.2023 19:57:19",
         "task_number": "1139",
         "language": "c++",
         "result": "Accepted",
@@ -1585,7 +1585,7 @@
     },
     {
         "id": "17303843",
-        "date": "21.06.2022 12:27:14",
+        "task_date": "21.06.2022 12:27:14",
         "task_number": "0791",
         "language": "c++",
         "result": "Accepted",
@@ -1594,7 +1594,7 @@
     },
     {
         "id": "18232524",
-        "date": "25.11.2022 10:41:34",
+        "task_date": "25.11.2022 10:41:34",
         "task_number": "1297",
         "language": "c++",
         "result": "Accepted",
@@ -1603,7 +1603,7 @@
     },
     {
         "id": "14573597",
-        "date": "05.03.2021 19:24:06",
+        "task_date": "05.03.2021 19:24:06",
         "task_number": "0794",
         "language": "c++",
         "result": "Accepted",
@@ -1612,7 +1612,7 @@
     },
     {
         "id": "20494343",
-        "date": "27.11.2023 15:43:15",
+        "task_date": "27.11.2023 15:43:15",
         "task_number": "0351",
         "language": "c++",
         "result": "Accepted",
@@ -1621,7 +1621,7 @@
     },
     {
         "id": "10606367",
-        "date": "15.05.2019 14:28:48",
+        "task_date": "15.05.2019 14:28:48",
         "task_number": "0059",
         "language": "pascal",
         "result": "Accepted",
@@ -1630,7 +1630,7 @@
     },
     {
         "id": "18542481",
-        "date": "03.01.2023 18:34:35",
+        "task_date": "03.01.2023 18:34:35",
         "task_number": "1125",
         "language": "c++",
         "result": "Accepted",
@@ -1639,7 +1639,7 @@
     },
     {
         "id": "20112399",
-        "date": "16.10.2023 9:10:02",
+        "task_date": "16.10.2023 9:10:02",
         "task_number": "1404",
         "language": "c++",
         "result": "Accepted",
@@ -1648,7 +1648,7 @@
     },
     {
         "id": "20672810",
-        "date": "18.12.2023 14:27:31",
+        "task_date": "18.12.2023 14:27:31",
         "task_number": "0781",
         "language": "c++",
         "result": "Accepted",
@@ -1657,7 +1657,7 @@
     },
     {
         "id": "15446873",
-        "date": "18.09.2021 9:58:32",
+        "task_date": "18.09.2021 9:58:32",
         "task_number": "0018",
         "language": " python",
         "result": "Accepted",
@@ -1666,7 +1666,7 @@
     },
     {
         "id": "10595203",
-        "date": "13.05.2019 10:59:21",
+        "task_date": "13.05.2019 10:59:21",
         "task_number": "0063",
         "language": "pascal",
         "result": "Accepted",
@@ -1675,7 +1675,7 @@
     },
     {
         "id": "18542830",
-        "date": "03.01.2023 19:54:41",
+        "task_date": "03.01.2023 19:54:41",
         "task_number": "1138",
         "language": "c++",
         "result": "Accepted",
@@ -1684,7 +1684,7 @@
     },
     {
         "id": "20112343",
-        "date": "16.10.2023 9:05:12",
+        "task_date": "16.10.2023 9:05:12",
         "task_number": "1148",
         "language": "c++",
         "result": "Accepted",
@@ -1693,7 +1693,7 @@
     },
     {
         "id": "21500182",
-        "date": "06.05.2024 15:27:18",
+        "task_date": "06.05.2024 15:27:18",
         "task_number": "0649",
         "language": "c++",
         "result": "Accepted",
@@ -1702,7 +1702,7 @@
     },
     {
         "id": "14842062",
-        "date": "16.04.2021 19:57:32",
+        "task_date": "16.04.2021 19:57:32",
         "task_number": "0654",
         "language": "c++",
         "result": "Accepted",
@@ -1711,7 +1711,7 @@
     },
     {
         "id": "19942325",
-        "date": "25.09.2023 20:33:18",
+        "task_date": "25.09.2023 20:33:18",
         "task_number": "0125",
         "language": "c++",
         "result": "Accepted",
@@ -1720,7 +1720,7 @@
     },
     {
         "id": "10556144",
-        "date": "04.05.2019 14:34:44",
+        "task_date": "04.05.2019 14:34:44",
         "task_number": "0264",
         "language": "pascal",
         "result": "Accepted",
@@ -1729,7 +1729,7 @@
     },
     {
         "id": "10435820",
-        "date": "15.04.2019 14:50:32",
+        "task_date": "15.04.2019 14:50:32",
         "task_number": "0814",
         "language": "pascal",
         "result": "Accepted",
@@ -1738,7 +1738,7 @@
     },
     {
         "id": "19944492",
-        "date": "26.09.2023 8:49:11",
+        "task_date": "26.09.2023 8:49:11",
         "task_number": "1356",
         "language": "c++",
         "result": "Accepted",
@@ -1747,7 +1747,7 @@
     },
     {
         "id": "18168933",
-        "date": "18.11.2022 9:13:46",
+        "task_date": "18.11.2022 9:13:46",
         "task_number": "0760",
         "language": "c++",
         "result": "Accepted",
@@ -1756,7 +1756,7 @@
     },
     {
         "id": "15404040",
-        "date": "11.09.2021 10:33:56",
+        "task_date": "11.09.2021 10:33:56",
         "task_number": "1112",
         "language": "c++",
         "result": "Accepted",
@@ -1765,7 +1765,7 @@
     },
     {
         "id": "10404409",
-        "date": "10.04.2019 14:08:38",
+        "task_date": "10.04.2019 14:08:38",
         "task_number": "0022",
         "language": "pascal",
         "result": "Accepted",
@@ -1774,7 +1774,7 @@
     },
     {
         "id": "14679984",
-        "date": "19.03.2021 19:42:06",
+        "task_date": "19.03.2021 19:42:06",
         "task_number": "0946",
         "language": "c++",
         "result": "Accepted",
@@ -1783,7 +1783,7 @@
     },
     {
         "id": "16982258",
-        "date": "16.04.2022 13:01:01",
+        "task_date": "16.04.2022 13:01:01",
         "task_number": "0334",
         "language": "c++",
         "result": "Accepted",
@@ -1792,7 +1792,7 @@
     },
     {
         "id": "16209721",
-        "date": "11.12.2021 12:35:55",
+        "task_date": "11.12.2021 12:35:55",
         "task_number": "1116",
         "language": "c++",
         "result": "Accepted",
@@ -1801,7 +1801,7 @@
     },
     {
         "id": "18803541",
-        "date": "13.02.2023 10:36:01",
+        "task_date": "13.02.2023 10:36:01",
         "task_number": "0784",
         "language": "c++",
         "result": "Accepted",
@@ -1810,7 +1810,7 @@
     },
     {
         "id": "15499050",
-        "date": "25.09.2021 12:04:44",
+        "task_date": "25.09.2021 12:04:44",
         "task_number": "1119",
         "language": "c++",
         "result": "Accepted",
@@ -1819,7 +1819,7 @@
     },
     {
         "id": "17727671",
-        "date": "30.09.2022 9:46:12",
+        "task_date": "30.09.2022 9:46:12",
         "task_number": "0322",
         "language": "c++",
         "result": "Accepted",
@@ -1828,7 +1828,7 @@
     },
     {
         "id": "20114892",
-        "date": "16.10.2023 13:32:34",
+        "task_date": "16.10.2023 13:32:34",
         "task_number": "1154",
         "language": "c++",
         "result": "Accepted",
@@ -1837,7 +1837,7 @@
     },
     {
         "id": "14312935",
-        "date": "02.02.2021 14:28:57",
+        "task_date": "02.02.2021 14:28:57",
         "task_number": "0131",
         "language": "c++",
         "result": "Accepted",
@@ -1846,7 +1846,7 @@
     },
     {
         "id": "16546313",
-        "date": "05.02.2022 10:51:48",
+        "task_date": "05.02.2022 10:51:48",
         "task_number": "0498",
         "language": "c++",
         "result": "Accepted",
@@ -1855,7 +1855,7 @@
     },
     {
         "id": "18542981",
-        "date": "03.01.2023 20:29:52",
+        "task_date": "03.01.2023 20:29:52",
         "task_number": "1140",
         "language": "c++",
         "result": "Accepted",
@@ -1864,7 +1864,7 @@
     },
     {
         "id": "15630383",
-        "date": "09.10.2021 12:46:40",
+        "task_date": "09.10.2021 12:46:40",
         "task_number": "1003",
         "language": "c++",
         "result": "Accepted",
@@ -1873,7 +1873,7 @@
     },
     {
         "id": "18257026",
-        "date": "28.11.2022 9:47:49",
+        "task_date": "28.11.2022 9:47:49",
         "task_number": "0446",
         "language": "c++",
         "result": "Accepted",
@@ -1882,7 +1882,7 @@
     },
     {
         "id": "18484784",
-        "date": "23.12.2022 10:44:02",
+        "task_date": "23.12.2022 10:44:02",
         "task_number": "0202",
         "language": "c++",
         "result": "Accepted",
@@ -1891,7 +1891,7 @@
     },
     {
         "id": "18453029",
-        "date": "19.12.2022 9:37:33",
+        "task_date": "19.12.2022 9:37:33",
         "task_number": "0513",
         "language": "c++",
         "result": "Accepted",
@@ -1900,7 +1900,7 @@
     },
     {
         "id": "17911817",
-        "date": "20.10.2022 14:13:04",
+        "task_date": "20.10.2022 14:13:04",
         "task_number": "0493",
         "language": "c++",
         "result": "Accepted",
@@ -1909,7 +1909,7 @@
     },
     {
         "id": "17024986",
-        "date": "23.04.2022 10:28:24",
+        "task_date": "23.04.2022 10:28:24",
         "task_number": "0320",
         "language": "c++",
         "result": "Accepted",
@@ -1918,7 +1918,7 @@
     },
     {
         "id": "9991878",
-        "date": "04.02.2019 14:47:03",
+        "task_date": "04.02.2019 14:47:03",
         "task_number": "0757",
         "language": "pascal",
         "result": "Accepted",
@@ -1927,7 +1927,7 @@
     },
     {
         "id": "15404098",
-        "date": "11.09.2021 10:38:08",
+        "task_date": "11.09.2021 10:38:08",
         "task_number": "0324",
         "language": "c++",
         "result": "Accepted",
@@ -1936,7 +1936,7 @@
     },
     {
         "id": "17949078",
-        "date": "24.10.2022 20:14:51",
+        "task_date": "24.10.2022 20:14:51",
         "task_number": "0050",
         "language": "c++",
         "result": "Accepted",
@@ -1945,7 +1945,7 @@
     },
     {
         "id": "15404665",
-        "date": "11.09.2021 11:33:59",
+        "task_date": "11.09.2021 11:33:59",
         "task_number": "0148",
         "language": "c++",
         "result": "Accepted",
@@ -1954,7 +1954,7 @@
     },
     {
         "id": "18372201",
-        "date": "09.12.2022 9:14:07",
+        "task_date": "09.12.2022 9:14:07",
         "task_number": "0182",
         "language": "c++",
         "result": "Accepted",
@@ -1963,7 +1963,7 @@
     },
     {
         "id": "15708200",
-        "date": "16.10.2021 12:31:52",
+        "task_date": "16.10.2021 12:31:52",
         "task_number": "0315",
         "language": "c++",
         "result": "Accepted",
@@ -1972,7 +1972,7 @@
     },
     {
         "id": "18542617",
-        "date": "03.01.2023 18:59:10",
+        "task_date": "03.01.2023 18:59:10",
         "task_number": "1129",
         "language": "c++",
         "result": "Accepted",
@@ -1981,7 +1981,7 @@
     },
     {
         "id": "14703902",
-        "date": "24.03.2021 9:55:50",
+        "task_date": "24.03.2021 9:55:50",
         "task_number": "0943",
         "language": "c++",
         "result": "Accepted",
@@ -1990,7 +1990,7 @@
     },
     {
         "id": "19939269",
-        "date": "25.09.2023 14:53:49",
+        "task_date": "25.09.2023 14:53:49",
         "task_number": "0150",
         "language": "c++",
         "result": "Accepted",
@@ -1999,7 +1999,7 @@
     },
     {
         "id": "15707382",
-        "date": "16.10.2021 11:16:56",
+        "task_date": "16.10.2021 11:16:56",
         "task_number": "0542",
         "language": "c++",
         "result": "Accepted",
@@ -2008,7 +2008,7 @@
     },
     {
         "id": "12006827",
-        "date": "21.12.2019 19:58:05",
+        "task_date": "21.12.2019 19:58:05",
         "task_number": "0330",
         "language": "pascal",
         "result": "Accepted",
@@ -2017,7 +2017,7 @@
     },
     {
         "id": "20116323",
-        "date": "16.10.2023 15:27:07",
+        "task_date": "16.10.2023 15:27:07",
         "task_number": "0650",
         "language": "c++",
         "result": "Accepted",
@@ -2026,7 +2026,7 @@
     },
     {
         "id": "15447189",
-        "date": "18.09.2021 10:43:10",
+        "task_date": "18.09.2021 10:43:10",
         "task_number": "0323",
         "language": "c++",
         "result": "Accepted",
@@ -2035,7 +2035,7 @@
     },
     {
         "id": "18161004",
-        "date": "17.11.2022 11:36:05",
+        "task_date": "17.11.2022 11:36:05",
         "task_number": "0007",
         "language": "c++",
         "result": "Accepted",
@@ -2044,7 +2044,7 @@
     },
     {
         "id": "18281453",
-        "date": "30.11.2022 14:09:41",
+        "task_date": "30.11.2022 14:09:41",
         "task_number": "0287",
         "language": "c++",
         "result": "Accepted",
@@ -2053,7 +2053,7 @@
     },
     {
         "id": "15404280",
-        "date": "11.09.2021 10:55:45",
+        "task_date": "11.09.2021 10:55:45",
         "task_number": "1126",
         "language": "c++",
         "result": "Accepted",
@@ -2062,7 +2062,7 @@
     },
     {
         "id": "14573549",
-        "date": "05.03.2021 19:16:58",
+        "task_date": "05.03.2021 19:16:58",
         "task_number": "0929",
         "language": "c++",
         "result": "Accepted",
@@ -2071,7 +2071,7 @@
     },
     {
         "id": "15497478",
-        "date": "25.09.2021 10:04:48",
+        "task_date": "25.09.2021 10:04:48",
         "task_number": "1038",
         "language": "c++",
         "result": "Accepted",
@@ -2080,7 +2080,7 @@
     },
     {
         "id": "18485074",
-        "date": "23.12.2022 11:27:39",
+        "task_date": "23.12.2022 11:27:39",
         "task_number": "1172",
         "language": "c++",
         "result": "Accepted",
@@ -2089,7 +2089,7 @@
     },
     {
         "id": "15499494",
-        "date": "25.09.2021 12:40:40",
+        "task_date": "25.09.2021 12:40:40",
         "task_number": "0461",
         "language": "c++",
         "result": "Accepted",
@@ -2098,7 +2098,7 @@
     },
     {
         "id": "18338543",
-        "date": "06.12.2022 12:21:00",
+        "task_date": "06.12.2022 12:21:00",
         "task_number": "0291",
         "language": "c++",
         "result": "Accepted",
@@ -2107,7 +2107,7 @@
     },
     {
         "id": "15833154",
-        "date": "29.10.2021 15:33:02",
+        "task_date": "29.10.2021 15:33:02",
         "task_number": "0010",
         "language": "c++",
         "result": "Accepted",
@@ -2116,7 +2116,7 @@
     },
     {
         "id": "14954628",
-        "date": "12.05.2021 8:38:20",
+        "task_date": "12.05.2021 8:38:20",
         "task_number": "0044",
         "language": "c++",
         "result": "Accepted",
@@ -2125,7 +2125,7 @@
     },
     {
         "id": "19778271",
-        "date": "23.08.2023 12:11:00",
+        "task_date": "23.08.2023 12:11:00",
         "task_number": "1124",
         "language": "c++",
         "result": "Accepted",
@@ -2134,7 +2134,7 @@
     },
     {
         "id": "19927021",
-        "date": "23.09.2023 13:17:37",
+        "task_date": "23.09.2023 13:17:37",
         "task_number": "1397",
         "language": "c++",
         "result": "Accepted",
@@ -2143,7 +2143,7 @@
     },
     {
         "id": "15499263",
-        "date": "25.09.2021 12:21:28",
+        "task_date": "25.09.2021 12:21:28",
         "task_number": "0314",
         "language": "c++",
         "result": "Accepted",
@@ -2152,7 +2152,7 @@
     },
     {
         "id": "10066082",
-        "date": "15.02.2019 15:27:35",
+        "task_date": "15.02.2019 15:27:35",
         "task_number": "0691",
         "language": "pascal",
         "result": "Accepted",
@@ -2161,7 +2161,7 @@
     },
     {
         "id": "20112327",
-        "date": "16.10.2023 9:03:26",
+        "task_date": "16.10.2023 9:03:26",
         "task_number": "1147",
         "language": "c++",
         "result": "Accepted",
@@ -2170,7 +2170,7 @@
     },
     {
         "id": "15353715",
-        "date": "29.08.2021 21:19:57",
+        "task_date": "29.08.2021 21:19:57",
         "task_number": "0103",
         "language": " python",
         "result": "Accepted",
@@ -2179,7 +2179,7 @@
     },
     {
         "id": "17921154",
-        "date": "21.10.2022 14:23:33",
+        "task_date": "21.10.2022 14:23:33",
         "task_number": "0383",
         "language": "c++",
         "result": "Accepted",
@@ -2188,7 +2188,7 @@
     },
     {
         "id": "20161043",
-        "date": "21.10.2023 12:44:19",
+        "task_date": "21.10.2023 12:44:19",
         "task_number": "0787",
         "language": "c++",
         "result": "Accepted",
@@ -2197,7 +2197,7 @@
     },
     {
         "id": "18452921",
-        "date": "19.12.2022 9:25:09",
+        "task_date": "19.12.2022 9:25:09",
         "task_number": "0893",
         "language": "c++",
         "result": "Accepted",
@@ -2206,7 +2206,7 @@
     },
     {
         "id": "16873282",
-        "date": "29.03.2022 12:01:52",
+        "task_date": "29.03.2022 12:01:52",
         "task_number": "0112",
         "language": "c++",
         "result": "Accepted",
@@ -2215,7 +2215,7 @@
     },
     {
         "id": "14547690",
-        "date": "02.03.2021 14:15:38",
+        "task_date": "02.03.2021 14:15:38",
         "task_number": "0667",
         "language": "c++",
         "result": "Accepted",
@@ -2224,7 +2224,7 @@
     },
     {
         "id": "10215802",
-        "date": "11.03.2019 14:34:42",
+        "task_date": "11.03.2019 14:34:42",
         "task_number": "0756",
         "language": "pascal",
         "result": "Accepted",
@@ -2233,7 +2233,7 @@
     },
     {
         "id": "10244225",
-        "date": "15.03.2019 15:29:46",
+        "task_date": "15.03.2019 15:29:46",
         "task_number": "0504",
         "language": "pascal",
         "result": "Accepted",
@@ -2242,7 +2242,7 @@
     },
     {
         "id": "20142374",
-        "date": "19.10.2023 12:28:12",
+        "task_date": "19.10.2023 12:28:12",
         "task_number": "0544",
         "language": " python",
         "result": "Accepted",
@@ -2251,7 +2251,7 @@
     },
     {
         "id": "20087673",
-        "date": "13.10.2023 10:06:43",
+        "task_date": "13.10.2023 10:06:43",
         "task_number": "1234",
         "language": "c++",
         "result": "Accepted",
@@ -2260,7 +2260,7 @@
     },
     {
         "id": "21500026",
-        "date": "06.05.2024 14:56:37",
+        "task_date": "06.05.2024 14:56:37",
         "task_number": "0646",
         "language": "c++",
         "result": "Accepted",
@@ -2269,7 +2269,7 @@
     },
     {
         "id": "17273135",
-        "date": "12.06.2022 16:37:52",
+        "task_date": "12.06.2022 16:37:52",
         "task_number": "0623",
         "language": "c++",
         "result": "Accepted",
@@ -2278,7 +2278,7 @@
     },
     {
         "id": "19778223",
-        "date": "23.08.2023 11:57:07",
+        "task_date": "23.08.2023 11:57:07",
         "task_number": "1121",
         "language": "c++",
         "result": "Accepted",
@@ -2287,7 +2287,7 @@
     },
     {
         "id": "17000902",
-        "date": "19.04.2022 12:12:06",
+        "task_date": "19.04.2022 12:12:06",
         "task_number": "1114",
         "language": "c++",
         "result": "Accepted",
@@ -2296,7 +2296,7 @@
     },
     {
         "id": "16872890",
-        "date": "29.03.2022 11:31:06",
+        "task_date": "29.03.2022 11:31:06",
         "task_number": "1180",
         "language": "c++",
         "result": "Accepted",
@@ -2305,7 +2305,7 @@
     },
     {
         "id": "17972560",
-        "date": "27.10.2022 11:37:52",
+        "task_date": "27.10.2022 11:37:52",
         "task_number": "0164",
         "language": "c++",
         "result": "Accepted",
@@ -2314,7 +2314,7 @@
     },
     {
         "id": "9643496",
-        "date": "17.12.2018 10:46:23",
+        "task_date": "17.12.2018 10:46:23",
         "task_number": "0766",
         "language": "pascal",
         "result": "Accepted",
@@ -2323,7 +2323,7 @@
     },
     {
         "id": "16873269",
-        "date": "29.03.2022 12:00:54",
+        "task_date": "29.03.2022 12:00:54",
         "task_number": "1181",
         "language": "c++",
         "result": "Accepted",
@@ -2332,7 +2332,7 @@
     },
     {
         "id": "9643525",
-        "date": "17.12.2018 10:51:46",
+        "task_date": "17.12.2018 10:51:46",
         "task_number": "0195",
         "language": "pascal",
         "result": "Accepted",
@@ -2341,7 +2341,7 @@
     },
     {
         "id": "18542724",
-        "date": "03.01.2023 19:27:33",
+        "task_date": "03.01.2023 19:27:33",
         "task_number": "1132",
         "language": "c++",
         "result": "Accepted",
@@ -2350,7 +2350,7 @@
     },
     {
         "id": "9697051",
-        "date": "23.12.2018 16:54:39",
+        "task_date": "23.12.2018 16:54:39",
         "task_number": "0755",
         "language": "pascal",
         "result": "Accepted",
@@ -2359,7 +2359,7 @@
     },
     {
         "id": "17659152",
-        "date": "22.09.2022 14:28:46",
+        "task_date": "22.09.2022 14:28:46",
         "task_number": "0924",
         "language": "c++",
         "result": "Accepted",
@@ -2368,7 +2368,7 @@
     },
     {
         "id": "20114789",
-        "date": "16.10.2023 13:23:41",
+        "task_date": "16.10.2023 13:23:41",
         "task_number": "1153",
         "language": "c++",
         "result": "Accepted",
@@ -2377,7 +2377,7 @@
     },
     {
         "id": "20222453",
-        "date": "28.10.2023 12:20:21",
+        "task_date": "28.10.2023 12:20:21",
         "task_number": "0500",
         "language": "c++",
         "result": "Accepted",
@@ -2386,7 +2386,7 @@
     },
     {
         "id": "18542752",
-        "date": "03.01.2023 19:34:46",
+        "task_date": "03.01.2023 19:34:46",
         "task_number": "1134",
         "language": "c++",
         "result": "Accepted",
@@ -2395,7 +2395,7 @@
     },
     {
         "id": "10244051",
-        "date": "15.03.2019 15:03:53",
+        "task_date": "15.03.2019 15:03:53",
         "task_number": "0933",
         "language": "pascal",
         "result": "Accepted",
@@ -2404,7 +2404,7 @@
     },
     {
         "id": "17043455",
-        "date": "26.04.2022 12:18:31",
+        "task_date": "26.04.2022 12:18:31",
         "task_number": "0296",
         "language": "c++",
         "result": "Accepted",
@@ -2413,7 +2413,7 @@
     },
     {
         "id": "15839262",
-        "date": "30.10.2021 11:17:22",
+        "task_date": "30.10.2021 11:17:22",
         "task_number": "0432",
         "language": "c++",
         "result": "Accepted",
@@ -2422,7 +2422,7 @@
     },
     {
         "id": "16816451",
-        "date": "19.03.2022 10:50:46",
+        "task_date": "19.03.2022 10:50:46",
         "task_number": "0016",
         "language": "c++",
         "result": "Accepted",
@@ -2431,7 +2431,7 @@
     },
     {
         "id": "14288677",
-        "date": "29.01.2021 16:50:35",
+        "task_date": "29.01.2021 16:50:35",
         "task_number": "0355",
         "language": "c++",
         "result": "Accepted",
@@ -2440,7 +2440,7 @@
     },
     {
         "id": "10670099",
-        "date": "27.05.2019 14:41:50",
+        "task_date": "27.05.2019 14:41:50",
         "task_number": "0005",
         "language": "pascal",
         "result": "Accepted",
@@ -2449,7 +2449,7 @@
     },
     {
         "id": "20178860",
-        "date": "23.10.2023 15:37:36",
+        "task_date": "23.10.2023 15:37:36",
         "task_number": "0666",
         "language": "c++",
         "result": "Accepted",
@@ -2458,7 +2458,7 @@
     },
     {
         "id": "14699826",
-        "date": "23.03.2021 13:19:18",
+        "task_date": "23.03.2021 13:19:18",
         "task_number": "0086",
         "language": "c++",
         "result": "Accepted",
@@ -2467,7 +2467,7 @@
     },
     {
         "id": "20160828",
-        "date": "21.10.2023 12:25:54",
+        "task_date": "21.10.2023 12:25:54",
         "task_number": "0680",
         "language": "c++",
         "result": "Accepted",
@@ -2476,7 +2476,7 @@
     },
     {
         "id": "20087603",
-        "date": "13.10.2023 10:03:17",
+        "task_date": "13.10.2023 10:03:17",
         "task_number": "1233",
         "language": "c++",
         "result": "Accepted",
@@ -2485,7 +2485,7 @@
     },
     {
         "id": "15499773",
-        "date": "25.09.2021 13:03:27",
+        "task_date": "25.09.2021 13:03:27",
         "task_number": "0174",
         "language": "c++",
         "result": "Accepted",
@@ -2494,7 +2494,7 @@
     },
     {
         "id": "10451331",
-        "date": "17.04.2019 14:35:46",
+        "task_date": "17.04.2019 14:35:46",
         "task_number": "0043",
         "language": "pascal",
         "result": "Accepted",
@@ -2503,7 +2503,7 @@
     },
     {
         "id": "15353727",
-        "date": "29.08.2021 21:23:39",
+        "task_date": "29.08.2021 21:23:39",
         "task_number": "0143",
         "language": " python",
         "result": "Accepted",
@@ -2512,7 +2512,7 @@
     },
     {
         "id": "17310065",
-        "date": "22.06.2022 19:35:16",
+        "task_date": "22.06.2022 19:35:16",
         "task_number": "0711",
         "language": "c++",
         "result": "Accepted",
@@ -2521,7 +2521,7 @@
     },
     {
         "id": "10259334",
-        "date": "18.03.2019 10:33:14",
+        "task_date": "18.03.2019 10:33:14",
         "task_number": "0023",
         "language": "pascal",
         "result": "Accepted",
@@ -2530,7 +2530,7 @@
     },
     {
         "id": "18542306",
-        "date": "03.01.2023 18:09:28",
+        "task_date": "03.01.2023 18:09:28",
         "task_number": "0411",
         "language": "c++",
         "result": "Accepted",
@@ -2539,7 +2539,7 @@
     },
     {
         "id": "9643535",
-        "date": "17.12.2018 10:56:11",
+        "task_date": "17.12.2018 10:56:11",
         "task_number": "0773",
         "language": "pascal",
         "result": "Accepted",
@@ -2548,7 +2548,7 @@
     },
     {
         "id": "19944317",
-        "date": "26.09.2023 8:13:50",
+        "task_date": "26.09.2023 8:13:50",
         "task_number": "1201",
         "language": "c++",
         "result": "Accepted",
@@ -2557,7 +2557,7 @@
     },
     {
         "id": "14652014",
-        "date": "16.03.2021 14:22:47",
+        "task_date": "16.03.2021 14:22:47",
         "task_number": "0496",
         "language": "c++",
         "result": "Accepted",
@@ -2566,7 +2566,7 @@
     },
     {
         "id": "15405233",
-        "date": "11.09.2021 12:17:05",
+        "task_date": "11.09.2021 12:17:05",
         "task_number": "0648",
         "language": "c++",
         "result": "Accepted",
@@ -2575,7 +2575,7 @@
     },
     {
         "id": "14046673",
-        "date": "18.12.2020 19:51:53",
+        "task_date": "18.12.2020 19:51:53",
         "task_number": "0523",
         "language": "c++",
         "result": "Accepted",
@@ -2584,7 +2584,7 @@
     },
     {
         "id": "17911356",
-        "date": "20.10.2022 13:26:33",
+        "task_date": "20.10.2022 13:26:33",
         "task_number": "0317",
         "language": "c++",
         "result": "Accepted",
@@ -2593,7 +2593,7 @@
     },
     {
         "id": "20933652",
-        "date": "29.01.2024 15:00:34",
+        "task_date": "29.01.2024 15:00:34",
         "task_number": "0071",
         "language": "c++",
         "result": "Accepted",
@@ -2602,7 +2602,7 @@
     },
     {
         "id": "15473231",
-        "date": "22.09.2021 12:03:48",
+        "task_date": "22.09.2021 12:03:48",
         "task_number": "0354",
         "language": "c++",
         "result": "Accepted",
@@ -2611,7 +2611,7 @@
     },
     {
         "id": "19778299",
-        "date": "23.08.2023 12:22:13",
+        "task_date": "23.08.2023 12:22:13",
         "task_number": "0763",
         "language": "c++",
         "result": "Accepted",
@@ -2620,7 +2620,7 @@
     },
     {
         "id": "18169610",
-        "date": "18.11.2022 10:29:44",
+        "task_date": "18.11.2022 10:29:44",
         "task_number": "0515",
         "language": "c++",
         "result": "Accepted",
@@ -2629,7 +2629,7 @@
     },
     {
         "id": "18232434",
-        "date": "25.11.2022 10:31:23",
+        "task_date": "25.11.2022 10:31:23",
         "task_number": "1175",
         "language": "c++",
         "result": "Accepted",
@@ -2638,7 +2638,7 @@
     },
     {
         "id": "17001064",
-        "date": "19.04.2022 12:29:27",
+        "task_date": "19.04.2022 12:29:27",
         "task_number": "1118",
         "language": "c++",
         "result": "Accepted",
@@ -2647,7 +2647,7 @@
     },
     {
         "id": "17921480",
-        "date": "21.10.2022 14:50:36",
+        "task_date": "21.10.2022 14:50:36",
         "task_number": "0013",
         "language": "c++",
         "result": "Accepted",
@@ -2656,7 +2656,7 @@
     },
     {
         "id": "18215935",
-        "date": "23.11.2022 14:25:38",
+        "task_date": "23.11.2022 14:25:38",
         "task_number": "0522",
         "language": "c++",
         "result": "Accepted",
@@ -2665,7 +2665,7 @@
     },
     {
         "id": "10132699",
-        "date": "25.02.2019 20:22:38",
+        "task_date": "25.02.2019 20:22:38",
         "task_number": "0777",
         "language": "pascal",
         "result": "Accepted",
@@ -2674,7 +2674,7 @@
     },
     {
         "id": "18424934",
-        "date": "15.12.2022 11:09:07",
+        "task_date": "15.12.2022 11:09:07",
         "task_number": "0072",
         "language": "c++",
         "result": "Accepted",
@@ -2683,7 +2683,7 @@
     },
     {
         "id": "17974692",
-        "date": "27.10.2022 14:56:56",
+        "task_date": "27.10.2022 14:56:56",
         "task_number": "0051",
         "language": "c++",
         "result": "Accepted",
@@ -2692,7 +2692,7 @@
     },
     {
         "id": "14968786",
-        "date": "14.05.2021 20:14:28",
+        "task_date": "14.05.2021 20:14:28",
         "task_number": "0098",
         "language": "c++",
         "result": "Accepted",
@@ -2701,7 +2701,7 @@
     },
     {
         "id": "17326419",
-        "date": "27.06.2022 13:18:15",
+        "task_date": "27.06.2022 13:18:15",
         "task_number": "0576",
         "language": "c++",
         "result": "Accepted",
@@ -2710,7 +2710,7 @@
     },
     {
         "id": "14999310",
-        "date": "21.05.2021 19:07:01",
+        "task_date": "21.05.2021 19:07:01",
         "task_number": "0700",
         "language": "c++",
         "result": "Accepted",
@@ -2719,7 +2719,7 @@
     },
     {
         "id": "15497421",
-        "date": "25.09.2021 10:01:25",
+        "task_date": "25.09.2021 10:01:25",
         "task_number": "1109",
         "language": "c++",
         "result": "Accepted",
@@ -2728,7 +2728,7 @@
     },
     {
         "id": "13889694",
-        "date": "27.11.2020 19:45:22",
+        "task_date": "27.11.2020 19:45:22",
         "task_number": "0844",
         "language": "c++",
         "result": "Accepted",
@@ -2737,7 +2737,7 @@
     },
     {
         "id": "10343705",
-        "date": "01.04.2019 14:40:34",
+        "task_date": "01.04.2019 14:40:34",
         "task_number": "0331",
         "language": "pascal",
         "result": "Accepted",
@@ -2746,7 +2746,7 @@
     },
     {
         "id": "9860183",
-        "date": "18.01.2019 16:02:07",
+        "task_date": "18.01.2019 16:02:07",
         "task_number": "0685",
         "language": "pascal",
         "result": "Accepted",
@@ -2755,7 +2755,7 @@
     },
     {
         "id": "17845792",
-        "date": "13.10.2022 14:17:06",
+        "task_date": "13.10.2022 14:17:06",
         "task_number": "0534",
         "language": "c++",
         "result": "Accepted",
@@ -2764,7 +2764,7 @@
     },
     {
         "id": "10159189",
-        "date": "01.03.2019 15:29:07",
+        "task_date": "01.03.2019 15:29:07",
         "task_number": "0664",
         "language": "pascal",
         "result": "Accepted",
@@ -2773,7 +2773,7 @@
     },
     {
         "id": "17772569",
-        "date": "05.10.2022 14:10:06",
+        "task_date": "05.10.2022 14:10:06",
         "task_number": "0281",
         "language": "c++",
         "result": "Accepted",
@@ -2782,7 +2782,7 @@
     },
     {
         "id": "18542512",
-        "date": "03.01.2023 18:38:27",
+        "task_date": "03.01.2023 18:38:27",
         "task_number": "1127",
         "language": "c++",
         "result": "Accepted",
@@ -2791,7 +2791,7 @@
     },
     {
         "id": "18257386",
-        "date": "28.11.2022 10:18:38",
+        "task_date": "28.11.2022 10:18:38",
         "task_number": "0530",
         "language": "c++",
         "result": "Accepted",
@@ -2800,7 +2800,7 @@
     },
     {
         "id": "17981547",
-        "date": "28.10.2022 10:45:28",
+        "task_date": "28.10.2022 10:45:28",
         "task_number": "0574",
         "language": "c++",
         "result": "Accepted",
@@ -2809,7 +2809,7 @@
     },
     {
         "id": "18231821",
-        "date": "25.11.2022 9:04:02",
+        "task_date": "25.11.2022 9:04:02",
         "task_number": "0670",
         "language": "c++",
         "result": "Accepted",
@@ -2818,7 +2818,7 @@
     },
     {
         "id": "10277109",
-        "date": "20.03.2019 14:34:29",
+        "task_date": "20.03.2019 14:34:29",
         "task_number": "0839",
         "language": "Free Pascal",
         "result": "Accepted",
@@ -2827,7 +2827,7 @@
     },
     {
         "id": "15444758",
-        "date": "17.09.2021 20:12:16",
+        "task_date": "17.09.2021 20:12:16",
         "task_number": "1232",
         "language": "c++",
         "result": "Accepted",
@@ -2836,7 +2836,7 @@
     },
     {
         "id": "10482886",
-        "date": "22.04.2019 11:00:04",
+        "task_date": "22.04.2019 11:00:04",
         "task_number": "0297",
         "language": "pascal",
         "result": "Accepted",
@@ -2845,7 +2845,7 @@
     },
     {
         "id": "15353730",
-        "date": "29.08.2021 21:24:35",
+        "task_date": "29.08.2021 21:24:35",
         "task_number": "0144",
         "language": " python",
         "result": "Accepted",
@@ -2854,7 +2854,7 @@
     },
     {
         "id": "19944518",
-        "date": "26.09.2023 8:52:53",
+        "task_date": "26.09.2023 8:52:53",
         "task_number": "1205",
         "language": "c++",
         "result": "Accepted",
@@ -2863,7 +2863,7 @@
     },
     {
         "id": "14622343",
-        "date": "12.03.2021 20:08:09",
+        "task_date": "12.03.2021 20:08:09",
         "task_number": "0385",
         "language": "c++",
         "result": "Accepted",
@@ -2872,7 +2872,7 @@
     },
     {
         "id": "10630518",
-        "date": "20.05.2019 14:38:58",
+        "task_date": "20.05.2019 14:38:58",
         "task_number": "0041",
         "language": "Free Pascal",
         "result": "Accepted",
@@ -2881,7 +2881,7 @@
     },
     {
         "id": "15771999",
-        "date": "23.10.2021 8:48:31",
+        "task_date": "23.10.2021 8:48:31",
         "task_number": "0173",
         "language": "c++",
         "result": "Accepted",
@@ -2890,7 +2890,7 @@
     },
     {
         "id": "15774879",
-        "date": "23.10.2021 12:33:02",
+        "task_date": "23.10.2021 12:33:02",
         "task_number": "0082",
         "language": "c++",
         "result": "Accepted",
@@ -2899,7 +2899,7 @@
     },
     {
         "id": "10144952",
-        "date": "27.02.2019 14:21:32",
+        "task_date": "27.02.2019 14:21:32",
         "task_number": "0052",
         "language": "pascal",
         "result": "Accepted",
@@ -2908,7 +2908,7 @@
     },
     {
         "id": "17183670",
-        "date": "21.05.2022 10:22:55",
+        "task_date": "21.05.2022 10:22:55",
         "task_number": "0954",
         "language": "c++",
         "result": "Accepted",
@@ -2917,7 +2917,7 @@
     },
     {
         "id": "17377448",
-        "date": "13.07.2022 17:00:40",
+        "task_date": "13.07.2022 17:00:40",
         "task_number": "0633",
         "language": "c++",
         "result": "Accepted",
@@ -2926,7 +2926,7 @@
     },
     {
         "id": "15832959",
-        "date": "29.10.2021 15:17:51",
+        "task_date": "29.10.2021 15:17:51",
         "task_number": "0263",
         "language": "c++",
         "result": "Accepted",
@@ -2935,7 +2935,7 @@
     },
     {
         "id": "15353735",
-        "date": "29.08.2021 21:25:59",
+        "task_date": "29.08.2021 21:25:59",
         "task_number": "0145",
         "language": " python",
         "result": "Accepted",
@@ -2944,7 +2944,7 @@
     },
     {
         "id": "17000970",
-        "date": "19.04.2022 12:18:36",
+        "task_date": "19.04.2022 12:18:36",
         "task_number": "1479",
         "language": "c++",
         "result": "Accepted",
@@ -2953,7 +2953,7 @@
     },
     {
         "id": "18129428",
-        "date": "14.11.2022 10:16:55",
+        "task_date": "14.11.2022 10:16:55",
         "task_number": "0340",
         "language": "c++",
         "result": "Accepted",
@@ -2962,7 +2962,7 @@
     },
     {
         "id": "9654095",
-        "date": "18.12.2018 14:25:22",
+        "task_date": "18.12.2018 14:25:22",
         "task_number": "0004",
         "language": "pascal",
         "result": "Accepted",
@@ -2971,7 +2971,7 @@
     },
     {
         "id": "20672632",
-        "date": "18.12.2023 14:08:23",
+        "task_date": "18.12.2023 14:08:23",
         "task_number": "0944",
         "language": "c++",
         "result": "Accepted",
@@ -2980,7 +2980,7 @@
     },
     {
         "id": "10482683",
-        "date": "22.04.2019 10:33:19",
+        "task_date": "22.04.2019 10:33:19",
         "task_number": "0002",
         "language": "pascal",
         "result": "Accepted",
@@ -2989,7 +2989,7 @@
     },
     {
         "id": "11403380",
-        "date": "19.10.2019 19:39:39",
+        "task_date": "19.10.2019 19:39:39",
         "task_number": "0284",
         "language": "c++",
         "result": "Accepted",
@@ -2998,7 +2998,7 @@
     },
     {
         "id": "17974372",
-        "date": "27.10.2022 14:31:25",
+        "task_date": "27.10.2022 14:31:25",
         "task_number": "0283",
         "language": "c++",
         "result": "Accepted",
@@ -3007,7 +3007,7 @@
     },
     {
         "id": "10596325",
-        "date": "13.05.2019 14:51:45",
+        "task_date": "13.05.2019 14:51:45",
         "task_number": "0271",
         "language": "pascal",
         "result": "Accepted",
@@ -3016,7 +3016,7 @@
     },
     {
         "id": "14823641",
-        "date": "14.04.2021 12:11:47",
+        "task_date": "14.04.2021 12:11:47",
         "task_number": "0894",
         "language": "c++",
         "result": "Accepted",
@@ -3025,7 +3025,7 @@
     },
     {
         "id": "17309801",
-        "date": "22.06.2022 18:38:13",
+        "task_date": "22.06.2022 18:38:13",
         "task_number": "0778",
         "language": "c++",
         "result": "Accepted",
@@ -3034,7 +3034,7 @@
     },
     {
         "id": "16209910",
-        "date": "11.12.2021 12:55:12",
+        "task_date": "11.12.2021 12:55:12",
         "task_number": "0518",
         "language": "c++",
         "result": "Accepted",
@@ -3043,7 +3043,7 @@
     },
     {
         "id": "15404684",
-        "date": "11.09.2021 11:35:24",
+        "task_date": "11.09.2021 11:35:24",
         "task_number": "0014",
         "language": "c++",
         "result": "Accepted",
@@ -3052,7 +3052,7 @@
     },
     {
         "id": "15951023",
-        "date": "13.11.2021 10:35:44",
+        "task_date": "13.11.2021 10:35:44",
         "task_number": "0121",
         "language": "c++",
         "result": "Accepted",
@@ -3061,7 +3061,7 @@
     },
     {
         "id": "16855829",
-        "date": "26.03.2022 11:18:34",
+        "task_date": "26.03.2022 11:18:34",
         "task_number": "1081",
         "language": "c++",
         "result": "Accepted",
@@ -3070,7 +3070,7 @@
     },
     {
         "id": "20087757",
-        "date": "13.10.2023 10:11:57",
+        "task_date": "13.10.2023 10:11:57",
         "task_number": "1235",
         "language": "c++",
         "result": "Accepted",
@@ -3079,7 +3079,7 @@
     },
     {
         "id": "18811014",
-        "date": "14.02.2023 10:33:23",
+        "task_date": "14.02.2023 10:33:23",
         "task_number": "0910",
         "language": "c++",
         "result": "Accepted",
@@ -3088,7 +3088,7 @@
     },
     {
         "id": "15404491",
-        "date": "11.09.2021 11:18:39",
+        "task_date": "11.09.2021 11:18:39",
         "task_number": "0272",
         "language": "c++",
         "result": "Accepted",
@@ -3097,7 +3097,7 @@
     },
     {
         "id": "11570818",
-        "date": "06.11.2019 10:30:36",
+        "task_date": "06.11.2019 10:30:36",
         "task_number": "0550",
         "language": "pascal",
         "result": "Accepted",
@@ -3106,7 +3106,7 @@
     },
     {
         "id": "19944823",
-        "date": "26.09.2023 9:42:32",
+        "task_date": "26.09.2023 9:42:32",
         "task_number": "1358",
         "language": "c++",
         "result": "Accepted",
@@ -3115,7 +3115,7 @@
     },
     {
         "id": "18542376",
-        "date": "03.01.2023 18:18:26",
+        "task_date": "03.01.2023 18:18:26",
         "task_number": "1120",
         "language": "c++",
         "result": "Accepted",
@@ -3124,7 +3124,7 @@
     },
     {
         "id": "19939467",
-        "date": "25.09.2023 15:15:21",
+        "task_date": "25.09.2023 15:15:21",
         "task_number": "0127",
         "language": "c++",
         "result": "Accepted",
@@ -3133,7 +3133,7 @@
     },
     {
         "id": "18216025",
-        "date": "23.11.2022 14:32:12",
+        "task_date": "23.11.2022 14:32:12",
         "task_number": "0780",
         "language": "c++",
         "result": "Accepted",
@@ -3142,7 +3142,7 @@
     },
     {
         "id": "15832909",
-        "date": "29.10.2021 15:13:00",
+        "task_date": "29.10.2021 15:13:00",
         "task_number": "0294",
         "language": "c++",
         "result": "Accepted",
@@ -3151,7 +3151,7 @@
     },
     {
         "id": "14207968",
-        "date": "15.01.2021 20:25:24",
+        "task_date": "15.01.2021 20:25:24",
         "task_number": "0712",
         "language": "c++",
         "result": "Accepted",
@@ -3160,7 +3160,7 @@
     },
     {
         "id": "17772746",
-        "date": "05.10.2022 14:22:27",
+        "task_date": "05.10.2022 14:22:27",
         "task_number": "0157",
         "language": "c++",
         "result": "Accepted",
@@ -3169,7 +3169,7 @@
     },
     {
         "id": "10596226",
-        "date": "13.05.2019 14:28:57",
+        "task_date": "13.05.2019 14:28:57",
         "task_number": "0079",
         "language": "pascal",
         "result": "Accepted",
@@ -3178,7 +3178,7 @@
     },
     {
         "id": "18731883",
-        "date": "03.02.2023 9:40:25",
+        "task_date": "03.02.2023 9:40:25",
         "task_number": "0169",
         "language": "c++",
         "result": "Accepted",
@@ -3187,7 +3187,7 @@
     },
     {
         "id": "9859800",
-        "date": "18.01.2019 15:23:34",
+        "task_date": "18.01.2019 15:23:34",
         "task_number": "0892",
         "language": "pascal",
         "result": "Accepted",

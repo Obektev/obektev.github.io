@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="../staff/background.css">
@@ -8,6 +8,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
         <link rel="stylesheet" href="vs2015.css">
         <meta charset="UTF-8">
+        <title></title>
     </head>
     <body>
         <div class="content">
@@ -16,6 +17,7 @@
                 <div>
                     <div id="solution-language"></div>
                     <div id="solution-result"></div>
+                    <div id="solution-date"></div>
                 </div>
                 <div id="copy-text">👆 Нажмите, чтобы скопировать</div>
             </div>
@@ -73,9 +75,11 @@
 
             const lang = solution.language.replace('cpp', 'c++');
             const res = solution.result;
+            const date = solution.date;
 
             document.getElementById("solution-language").innerHTML = `Язык решения: <font color='#FFD700'>${lang[0].toUpperCase() + lang.slice(1, lang.length)}</font>`;
             document.getElementById("solution-result").innerHTML = `Язык решения: <font color='#228B22'>${res}</font>`;
+            document.getElementById("solution-date").innerHTML = `Дата решения: <font color='#8c8c8c'>${date}</font>`;
 
         }
 

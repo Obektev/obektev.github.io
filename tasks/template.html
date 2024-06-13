@@ -2,55 +2,84 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="../background.css">
-        <link rel="icon" href="../img/logo.png"
+        <link rel="stylesheet" href="../staff/background.css">
+        <link rel="icon" href="../img/logo.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <link rel="stylesheet" href="vs2015.css">
+        <meta charset="UTF-8">
     </head>
     <body>
         <div class="content">
             <p id="title">ACMP - Solutions</p>
             <div class="card">
+                <div>
+                    <div id="solution-language"></div>
+                    <div id="solution-result"></div>
+                </div>
+                <div id="copy-text">👆 Нажмите, чтобы скопировать</div>
             </div>
         </div>
 
-        <div class="bottom">
-            <div class="bottom-left">
-                <h4>Credits:</h4>
-                <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - created this website</p>
-                <p><a href="https://twitter.com/kootoopas" target="_blank">kootoopas</a> - created background animation</p>
-            </div>
-            <div class="bottom-right">
-                <p>2024</p>
-            </div>
+        <div class="footer">
+            <!--<h4>Credits:</h4>-->
+            <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - автор этого сайта</p>
+            <p>2024</p>
         </div>
 
     <script>
-        const urlParts = new URL(window.location.href).pathname.split("/");
-        let title = decodeURI(urlParts.pop().replace(/\.html$/, ""));
-        
-        let newTitle = '';
-        for (var i in title) {
-            if (i == 0 || title[i - 1] == ' ' && title[i] != 'и')
-                newTitle += title[i].toUpperCase();
-            else
-                newTitle += title[i];
-        }
-        
-        document.title = newTitle;
-        
-        const card = document.querySelector(".card");
-        let code = ``;
 
-        code = code.replaceAll('<', '&lt').replaceAll('>', '&gt');
-
-        card.innerHTML = "<pre><code>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Нажмите, чтобы скопировать</p>';
-        
-        card.onclick = () => {
-            navigator.clipboard.writeText(code);
-            card.innerHTML = "<pre><code>" + code + "</pre>" + '<p style="font-size: 1em; text-align: end; transform: translate(150px, 20px);">Скопировано</p>';
+        async function fetchSolution(taskNumber) {
+            try {
+                const response = await fetch('../staff/solutions.json');
+                const data = await response.json();
+                return data.find(task => task.task_number === taskNumber);
+            } catch (error) {
+                console.error('Error fetching the solutions:', error);
+                return null;
+            }
         }
 
-        const topTitle = document.getElementById('title');
-        topTitle.textContent = newTitle;
+        async function displaySolution() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const taskNumber = urlParams.get('task_number');
+            if (!taskNumber) {
+                document.querySelector('.card').innerHTML = '<p>Task number is not provided.</p>';
+                return;
+            }
+
+            const solution = await fetchSolution(taskNumber);
+            if (!solution) {
+                document.querySelector('.card').innerHTML = '<p>Solution not found.</p>';
+                return;
+            }
+
+            document.title = solution.title;
+            document.getElementById('title').textContent = solution.title;
+
+            let code = solution.code.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+
+
+            const card = document.querySelector('.card');
+
+            card.innerHTML = "<pre><code class='language-" + solution.language + "'>" + code + "</pre>" + card.innerHTML;
+
+            document.getElementById('copy-text').onclick = () => {
+                document.getElementById('copy-text').innerHTML = "Скопировано в буфер обмена";
+                navigator.clipboard.writeText(solution.code);
+            };
+
+            hljs.highlightAll();
+
+            const lang = solution.language.replace('cpp', 'c++');
+            const res = solution.result;
+
+            document.getElementById("solution-language").innerHTML = `Язык решения: <font color='#FFD700'>${lang[0].toUpperCase() + lang.slice(1, lang.length)}</font>`;
+            document.getElementById("solution-result").innerHTML = `Язык решения: <font color='#228B22'>${res}</font>`;
+
+        }
+
+        displaySolution();
 
     </script>
 

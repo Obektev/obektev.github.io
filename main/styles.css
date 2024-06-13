@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Exo:100);
+@font-face {font-family:'Exo';src: url('../staff/Exo_2.0_Thin.ttf');}
 
 html {
     height: 100%;
@@ -43,18 +43,21 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
-.bottom {
-    text-align: start;
+.footer {
     position: fixed;
     bottom: 0;
-    flex-direction: column;
+    left: 0;
     line-height: 0.8em;
 
+    z-index: -1;
     font-size: 1vw;
 
-    z-index: -1;
+    text-align: start;
+    margin-left: 1vw;
 }
-.bottom a {
+
+
+.footer a {
     text-decoration: none;
     color: inherit;
 }

@@ -1,12 +1,12 @@
-import { tasksInfo } from './tasks.js'
+let searchWords = [];
 
-let availableKeywords = [];
+const response = await fetch('../staff/solutions.json');
+const data = await response.json();
 
-for (var key in tasksInfo) {
-    availableKeywords.push(key);
+for (let i = 0; i < data.length; i++) {
+    const solution = data[i];
+    searchWords.push('['+ solution['task_number'] + '] ' + solution['title']);
 }
-
-console.log(availableKeywords);
 
 const resultsBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
@@ -16,12 +16,11 @@ inputBox.onkeyup = function() {
     let input = inputBox.value;
 
     if (input.length) {
-        result = availableKeywords.filter((keyword) => {
+        result = searchWords.filter((keyword) => {
             return keyword.toLowerCase().includes(input.toLowerCase());
         });   
-        
-        console.log(result);
-        if (result.length != 0)
+
+        if (result.length !== 0)
             display(result);
         else
             resultsBox.innerHTML = "";
@@ -34,7 +33,7 @@ function display(result) {
         const li = document.createElement('li');
         li.textContent = item;
         li.addEventListener('click', function() {
-            window.open(tasksInfo[item], "_blank");
+            window.open('../tasks/template.html?task_number=' + item.slice(1, 5), "_blank");
         });
         return li;
     });

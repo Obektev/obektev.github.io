@@ -6,6 +6,7 @@
         <link rel="icon" href="../img/logo.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script src="https://kit.fontawesome.com/ba7c82e292.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="vs2015.css">
         <meta charset="UTF-8">
         <title></title>
@@ -23,12 +24,15 @@
             </div>
         </div>
 
+        <div class="card" id="arrow" title="Вернуться к стартовой странице" onclick="window.open('main_screen.html', '_self')">
+            <i class="fa-solid fa-left-long"></i>
+        </div>
+
         <div class="footer">
             <!--<h4>Credits:</h4>-->
             <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - автор этого сайта</p>
             <p>2024</p>
         </div>
-
     <script>
 
         async function fetchSolution(taskNumber) {

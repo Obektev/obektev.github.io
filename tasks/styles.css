@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
 @font-face {font-family:'Exo';src: url('../staff/Exo2.0.ttf');}
 
+body {
+    background-color: #000;
+}
+
 .content {
     color: #EEEEEE;
     font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
@@ -73,4 +77,17 @@
     font-family: 'Exo', sans-serif;
     font-size: 0.8em;
     text-align: end;
+}
+#arrow {
+    cursor: pointer;
+
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 2vb;
+    top: 2vb;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
 }

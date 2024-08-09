@@ -33,7 +33,7 @@ function display(result) {
         const li = document.createElement('li');
         li.textContent = item;
         li.addEventListener('click', function() {
-            window.open('../tasks/template.html?task_number=' + item.slice(1, 5), "_blank");
+            window.open('template.html?task_number=' + item.slice(1, 5), "_self");
         });
         return li;
     });

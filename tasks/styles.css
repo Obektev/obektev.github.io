@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
-@font-face {font-family:'Exo';src: url('../staff/Exo_2.0_Thin.ttf');}
+@font-face {font-family:'Exo';src: url('../staff/Exo2.0.ttf');}
 
 .content {
     color: #EEEEEE;
@@ -62,6 +62,7 @@
 }
 
 #copy-text {
+    cursor: pointer;
     font-family: 'Exo', sans-serif;
     font-size: 1em;
     text-align: end;

@@ -1,4 +1,4 @@
-@font-face {font-family:'Exo';src: url('../staff/Exo_2.0_Thin.ttf');}
+@font-face {font-family:'Exo';src: url('../../staff/Exo2.0.ttf');}
 
 html {
     --primary: #11998e;

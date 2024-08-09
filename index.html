@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="main/styles.css">
-        <link rel="stylesheet" href="staff/background.css">
-        <link rel="stylesheet" href="main/input.css">
-        <title>ACMP - Solutions</title>
-        <link rel="icon" href="img/logo.png"/>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <div class="content">
-            <p>ACMP - Solutions</p>
-            <div class="card">
-                <div class="form__group field">
-                    <input type="text" class="form__field" placeholder="" name="name" id='input-box' autocomplete="fals" />
-                    <label for="input-box" class="form__label" style="user-select: none;">Введите название/номер задачи</label>
-                </div>
-
-                <div class="result-box">
-                </div>
-
+<head>
+    <link rel="stylesheet" href="styles/common_styles.css">
+    <link rel="stylesheet" href="styles/background.css">
+    <link rel="stylesheet" href="styles/main_screen/styles.css">
+    <title>Obektev's Repo</title>
+    <link rel="icon" href="img/logo.png"/>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="content">
+    <p>OBEKTEV'S PROJECTS</p>
+    <div class="card" style="width: 40rem; text-align: start; margin-bottom: 6%">
+        <div id="header" style="display: flex">
+            <div class="select_button selected" style="margin-left: 0 !important;" tabindex="1">
+                <p id="info_button">Обо мне</p>
+                <div class="underscore"></div>
+            </div>
+            <div class="select_button" tabindex="2">
+                <p id="projects_button">Проекты</p>
+                <div class="underscore"></div>
+            </div>
+            <div class="select_button" onclick="window.open('acmp_solutions.html', '_self')" tabindex="3">
+                <p id="acmp_solutions">ACMP - Solutions</p>
+                <div class="underscore"></div>
             </div>
         </div>
-
-        <div class="footer">
-            <div style="line-height: 0.3em; color: #aeaeae">
-                <h4 style="color: white">Обновление от 13.06.2024:</h4>
-                <p>Добавлено 355 задач</p>
-                <p>Немного изменён интерфейс</p>
-                <p>Добавлена подсветка синтаксиса</p>
-                <p>Добавлена поддержка русского языка</p>
-                <p>Добавлено отображения яп решения</p>
-                <p>Добавлено отображения даты решения</p>
-            </div>
-            <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - автор этого сайта</p>
-            <p>2024</p>
+        <div id="aboutme_container">
+            <p>
+                18 лет<br>
+                Увлекаюсь программированием, 3d-дизайном, видеоиграми<br>
+            </p>
+            <hr>
+            <p>
+                Пишу на Java, Kotlin, C++, Python<br>
+                Разбираюсь в Android Views, Spigot/Paper, Unity, Blender<br>
+                Учу Jetpack Compose<br>
+                Люблю писать парсеры на Selenium 😁<br>
+            </p>
+            <hr>
+            <p>
+                Первый курс университета: БНТУ, Факультет информационных технологий и робототехники, Программная
+                инженерия<br>
+                11 классов <a href="https://gymn5.pervroo-vitebsk.gov.by/">Гимназии №5 г. Витебска</a>
+            </p>
+            <hr>
+            <p>
+                Любимые игры:
+                <a href="https://en.codelyoko.fr/ifscl/">IFSCL</a>,
+                <a href="https://mrdrnose.itch.io/votv">Voices Of The Void</a>,
+                <a href="https://www.devilmaycry.com/5">Devil May Cry 5</a>,
+                <a href="https://www.factorio.com/">Factorio</a>
+            </p>
         </div>
+        <div id="projects_container">
+            <p>Nothing yet 🥲</p>
+        </div>
+    </div>
+</div>
 
-        <script src="scripts/autocomplete.js" type="module"></script>
-    </body>
+<div class="footer">
+    <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - автор этого сайта</p>
+    <p>Иванов Александр, Витебск</p>
+    <p><i>obektev@gmail.com</i></p>
+    <p>2024</p>
+</div>
+
+<script>
+    const aboutme_container = document.getElementById('aboutme_container');
+    const projects_container = document.getElementById('projects_container');
+
+    projects_container.hidden = true;
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const select_buttons = document.querySelectorAll('.select_button');
+
+        select_buttons.forEach(button => {
+            button.addEventListener('click', function () {
+
+                const button_text = button.getElementsByTagName('p')[0].textContent.toLowerCase();
+
+                if (button_text.includes('acmp - solutions'))
+                    return;
+                select_buttons.forEach(btn => btn.classList.remove('selected'));
+
+                if (button_text.includes('проекты')) {
+                    aboutme_container.hidden = true;
+                    projects_container.hidden = false;
+                } else
+                    if (button_text.includes('обо мне')) {
+                        projects_container.hidden = true;
+                        aboutme_container.hidden = false;
+                    }
+
+                // Add 'selected' class to the clicked button
+                this.classList.add('selected');
+            });
+        });
+    });
+</script>
+</body>
 </html>

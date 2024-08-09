@@ -1,5 +1,7 @@
+/* Probably I will deal with this file later, but now there are some mixed styles for different sheets 😭*/
+
 @import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
-@font-face {font-family:'Exo';src: url('../staff/Exo_2.0_Thin.ttf');}
+@font-face {font-family:'Exo';src: url('../staff/Exo2.0.ttf');}
 
 html {
     height: 100%;
@@ -7,23 +9,21 @@ html {
     --text: #EEEEEE;
 }
 
-/*
 body {
-    margin: 0;
-    min-height: 100%;
-    width: 100%;
-    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
-    background-size: 100%;
-}*/
+    background-color: #000;
+}
 
+::selection {
+    background-color: #50839d;
+}
 
 .content {
     color: #EEEEEE;
     font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
     text-align: center;
-    flex-direction: column;
 }
 
+/* nah, fix that later */
 .content:nth-child(1) {
     font-size: 6em;
 }
@@ -31,7 +31,6 @@ body {
 .card {
     display: inline-block;
     color: var(--text);
-    flex-direction: column;
     padding: 20px;
 
     font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
@@ -47,9 +46,9 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    line-height: 0.8em;
+    line-height: 0.5em;
 
-    z-index: -1;
+    z-index: 1;
     font-size: 1vw;
 
     text-align: start;

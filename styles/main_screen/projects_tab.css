@@ -1,0 +1,70 @@
+.project_container {
+    margin-top: 10px;
+    background-color: #00000015;
+    border: 1px solid #ffffff20;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.project_description_container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.project_image {
+    max-width: 10rem;
+    max-height: 10rem;
+    float: left;
+    align-self: start;
+}
+
+.project_description {
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    float: left;
+    margin-left: 10px;
+}
+
+.project_activation_button > p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 1px solid #ffffff20;
+    border-radius: 10px;
+    background-color: #00000015;
+}
+.project_activation_button > p:hover {
+    cursor: pointer;
+}
+
+.screenshot {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.screenshot_description {
+    text-align: justify;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.project_review {
+    text-align: justify;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+.fa-brands {
+    color: #EEEEEE;
+    font-size: 1.5rem;
+}
+.fa-brands:hover {
+    cursor: pointer;
+}
+.fa-youtube {
+    color: #ff3636;
+}

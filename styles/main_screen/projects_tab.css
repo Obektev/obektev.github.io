@@ -46,7 +46,7 @@
 }
 
 .screenshot_description {
-    text-align: justify;
+    <!-- text-align: justify; -->
     width: fit-content;
     margin: 0 auto;
 }

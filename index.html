@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <link rel="stylesheet" href="styles/common_styles.css">
     <link rel="stylesheet" href="styles/background.css">
@@ -8,598 +7,592 @@
     <link rel="stylesheet" href="styles/main_screen/projects_tab.css">
     <script src="https://kit.fontawesome.com/ba7c82e292.js" crossorigin="anonymous"></script>
     <title>Obektev's Repo</title>
-    <link rel="icon" href="img/logo.png" />
+    <link rel="icon" href="img/logo.png"/>
     <meta charset="UTF-8">
 </head>
-
 <body>
-    <div class="content">
-        <p>OBEKTEV'S PROJECTS</p>
-        <div class="card" style="width: 40rem; text-align: start; margin-bottom: 6%">
-            <div id="header" style="display: flex">
-                <div class="select_button selected" style="margin-left: 0 !important;" tabindex="1">
-                    <p id="info_button">Обо мне</p>
-                    <div class="underscore"></div>
-                </div>
-                <div class="select_button" tabindex="2">
-                    <p id="projects_button">Проекты</p>
-                    <div class="underscore"></div>
-                </div>
-                <div class="select_button" onclick="window.open('acmp_solutions.html', '_self')" tabindex="3">
-                    <p id="acmp_solutions">ACMP - Solutions</p>
-                    <div class="underscore"></div>
+<div class="content">
+    <p>OBEKTEV'S PROJECTS</p>
+    <div class="card" style="width: 40rem; text-align: start; margin-bottom: 6%">
+        <div id="header" style="display: flex">
+            <div class="select_button selected" style="margin-left: 0 !important;" tabindex="1">
+                <p id="info_button">Обо мне</p>
+                <div class="underscore"></div>
+            </div>
+            <div class="select_button" tabindex="2">
+                <p id="projects_button">Проекты</p>
+                <div class="underscore"></div>
+            </div>
+            <div class="select_button" onclick="window.open('acmp_solutions.html', '_self')" tabindex="3">
+                <p id="acmp_solutions">ACMP - Solutions</p>
+                <div class="underscore"></div>
+            </div>
+        </div>
+        <div id="aboutme_container">
+            <p>
+                18 лет<br>
+                Увлекаюсь программированием, 3d-дизайном, видеоиграми<br>
+            </p>
+            <hr>
+            <p>
+                Пишу на Java, Kotlin, C++, Python<br>
+                Разбираюсь в Android Views, Spigot/Paper, Unity, Blender<br>
+                Учу Jetpack Compose<br>
+                Люблю писать парсеры на Selenium 😁<br>
+            </p>
+            <hr>
+            <p>
+                Первый курс университета: БНТУ, Факультет информационных технологий и робототехники, Программная
+                инженерия<br>
+                11 классов <a href="https://gymn5.pervroo-vitebsk.gov.by/">Гимназии №5 г. Витебска</a>
+            </p>
+            <hr>
+            <p>
+                Любимые игры:
+                <a href="https://en.codelyoko.fr/ifscl/">IFSCL</a>,
+                <a href="https://mrdrnose.itch.io/votv">Voices Of The Void</a>,
+                <a href="https://www.devilmaycry.com/5">Devil May Cry 5</a>,
+                <a href="https://www.factorio.com/">Factorio</a>,
+                <a href="https://www.satisfactorygame.com/">Satisfactory</a>,
+                <a href="https://bethesda.net/en/game/dishonored">Dishonored</a>
+            </p>
+        </div>
+        <div id="projects_container">
+
+            
+            <div class="project_activation_button" id="LectureCheck">
+                                <p>LectureCheck</p>
+                                <div class="project_container">
+                                    <div class="project_description_container">
+                                        <img src="img/lecturecheck/lecturecheck.png" class="project_image" alt="" />
+                                        <div class="project_description"><b>LectureCheck</b> - мультиплатформенное приложение для
+                                            контроля посещаемости студентов. Создано в рамках исследовательской работы для конференции. В
+                                            будущем планируется эволюция в дипломный проект.<br><br>
+                                            <hr>
+                                            Android Studio | IntelliJ IDEA | Kotlin | Ktor | Compose Multiplatform | PostgreSQL |
+                                            Clean Architecture<br>
+                                            <hr>
+                                            Логика: <span style="color: rgb(105, 228, 249)">Kotlin</span><br>
+                                            REST API: <span style="color: peachpuff">Ktor</span><br>
+                                            Интерфейс: <span style="color: peachpuff">Compose Multiplatform</span><br>
+                                            СУБД: <span style="color: rgb(58, 87, 229)">PostgreSQL</span><br>
+                                            2024-202x год. 
+                                            <br>
+                                            <br>
+                                            <a href="https://github.com/Obektev/obektev.github.io/blob/main/lecturecheck-legal/eula.md">EULA</a><br>
+                                            <a href="https://github.com/Obektev/obektev.github.io/blob/main/lecturecheck-legal/rights.md">User Rights</a>  
+                                            <a href="https://github.com/Obektev/obektev.github.io/blob/main/lecturecheck-legal/privacy.md">Privacy Policy</a>    
+                                        </div>
+                                    </div>
+                                </div>
+                                    <br>
+                                <div class="project_review">Обзор</div>
+                                    <div class="screenshots_container">
+                                        Will add in the future
+                                    </div>
+                                </div>
+            </div>
+
+            
+            <div class="project_activation_button" id="LunchLink">
+                <p>LunchLink</p>
+                <div class="project_container">
+                    <div class="project_description_container">
+                        <img src="img/lunchlink/lunchlink.png" class="project_image" alt=""/>
+                        <div class="project_description"><b>LunchLink</b> - мобильное андроид приложение для организации
+                            питания в школьных столовых, где учащиеся могут создать себе аккаунт и заказывать пищу.
+                            Есть поддержка русского и английского языков, светлой и тёмной тем, смена аватарок.
+                            Регистрация - через номер мобильного телефона.<br><br>
+                            Android Studio | Firebase | Glide<br>
+                            Логика: <span style="color: orange">Java</span><br>
+                            Интерфейс: <span style="color: peachpuff">XML</span> + <span
+                                    style="color: orange">Java</span><br>
+                            2023 год.
+                            <br>
+                            <br>
+                            Обзоры и источники: <br>
+                            <div style="margin-top: 5px">
+                                <i class="fa-brands fa-youtube" onclick="openLink('https://youtu.be/0KZwD9Ldob4')"></i>
+                                <i class="fa-brands fa-github"
+                                   onclick="openLink('https://github.com/Obektev/LunchLink')"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="project_review">Обзор</div>
+                    <div class="screenshots_container">
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/1.jpg" alt=""/>
+                                <div class="screenshot_description">Меню регистрации</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/2.jpg" alt=""/>
+                                <div class="screenshot_description">Меню регистрации
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/3.jpg" alt=""/>
+                                <div class="screenshot_description">Меню регистрации</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/4.jpg" alt=""/>
+                                <div class="screenshot_description">Главное меню
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/5.jpg" alt=""/>
+                                <div class="screenshot_description">Меню с блюдами<br>(нужно загрузить изображение)</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/6.jpg" alt=""/>
+                                <div class="screenshot_description">Меню с блюдами</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/7.jpg" alt=""/>
+                                <div class="screenshot_description">Экран с завтраком</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/8.jpg" alt=""/>
+                                <div class="screenshot_description">Заказ пользователя</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/9.jpg" alt=""/>
+                                <div class="screenshot_description">Информация о заказе</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/10.jpg" alt=""/>
+                                <div class="screenshot_description">Можно сделать заказ для другого человека
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/11.jpg" alt=""/>
+                                <div class="screenshot_description">Информация о заказе для другого человека</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/12.jpg" alt=""/>
+                                <div class="screenshot_description">Можно сделать личный заказ
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/13.jpg" alt=""/>
+                                <div class="screenshot_description">Так отображается личный заказ</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/14.jpg" alt=""/>
+                                <div class="screenshot_description">Окно настроек
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; max-width: 50%; padding: 10px">
+                                <img class="screenshot" src="img/lunchlink/15.jpg" alt=""/>
+                                <div class="screenshot_description">Окно для изменения имени</div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div id="aboutme_container">
-                <p>
-                    18 лет<br>
-                    Увлекаюсь программированием, 3d-дизайном, видеоиграми<br>
-                </p>
-                <hr>
-                <p>
-                    Пишу на Java, Kotlin, C++, Python<br>
-                    Разбираюсь в Android Views, Spigot/Paper, Unity, Blender<br>
-                    Учу Jetpack Compose<br>
-                    Люблю писать парсеры на Selenium 😁<br>
-                </p>
-                <hr>
-                <p>
-                    Первый курс университета: БНТУ, Факультет информационных технологий и робототехники, Программная
-                    инженерия<br>
-                    11 классов <a href="https://gymn5.pervroo-vitebsk.gov.by/">Гимназии №5 г. Витебска</a>
-                </p>
-                <hr>
-                <p>
-                    Любимые игры:
-                    <a href="https://en.codelyoko.fr/ifscl/">IFSCL</a>,
-                    <a href="https://mrdrnose.itch.io/votv">Voices Of The Void</a>,
-                    <a href="https://www.devilmaycry.com/5">Devil May Cry 5</a>,
-                    <a href="https://www.factorio.com/">Factorio</a>,
-                    <a href="https://www.satisfactorygame.com/">Satisfactory</a>,
-                    <a href="https://bethesda.net/en/game/dishonored">Dishonored</a>
-                </p>
+            <div class="project_activation_button" id="RFootball">
+                <p>RFootball</p>
+                <div class="project_container">
+                    <div class="project_description_container">
+                        <img src="img/transparent.png" class="project_image" alt=""/>
+                        <div class="project_description"><b>RFootball</b> - мобильное андроид приложение, созданное
+                            для конкурса по программированию. В этом приложении создаётся график соревнований и
+                            ведётся учёт победителей. Есть этапы полуфинала и финала.
+                            <br><br>
+                            Android Studio<br>
+                            Логика: <span style="color: orange">Java</span><br>
+                            Интерфейс: <span style="color: peachpuff">XML</span> + <span
+                                    style="color: orange">Java</span><br>
+                            2024 год.
+                            <br>
+                            <br>
+                            Обзоры и источники: <br>
+                            <div style="margin-top: 5px">
+                                <i class="fa-brands fa-youtube" onclick="openLink('https://youtu.be/bRouzkqbpRw')"></i>
+                                <i class="fa-brands fa-github"
+                                   onclick="openLink('https://github.com/Obektev/RFootball')"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="project_review">Обзор</div>
+                    <div class="screenshots_container">
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/1.png" alt=""/>
+                                <div class="screenshot_description">Главное меню</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/2.png" alt=""/>
+                                <div class="screenshot_description">Создание
+                                    соревнований
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/3.png" alt=""/>
+                                <div class="screenshot_description">Полученный
+                                    календарь
+                                </div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/4.png" alt=""/>
+                                <div class="screenshot_description">Выбор победителя
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/5.png" alt=""/>
+                                <div class="screenshot_description">Пройденные дни
+                                    помечаются
+                                </div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/6.png" alt=""/>
+                                <div class="screenshot_description">Полуфинал
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/7.png" alt=""/>
+                                <div class="screenshot_description">Полуфинал в
+                                    календаре
+                                </div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/8.png" alt=""/>
+                                <div class="screenshot_description">Финал
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/9.png" alt=""/>
+                                <div class="screenshot_description">Таблица
+                                    победителей
+                                </div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/rfootball/10.png" alt=""/>
+                                <div class="screenshot_description">Победитель
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="projects_container">
 
-                <div class="project_activation_button" id="LectureCheck">
-                    <p>LectureCheck</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/lecturecheck/lecturecheck.png" class="project_image" alt="" />
-                            <div class="project_description"><b>LectureCheck</b> - мультиплатформенное приложение для
-                                контроля посещаемости студентов. Создано в рамках исследовательской работы для конференции. В
-                                будущем планируется эволюция в дипломный проект.<br><br>
-                                <hr>
-                                Android Studio | IntelliJ IDEA | Kotlin | Ktor | Compose Multiplatform | PostgreSQL |
-                                Clean Architecture<br>
-                                <hr>
-                                Логика: <span style="color: rgb(105, 228, 249)">Kotlin</span><br>
-                                REST API: <span style="color: peachpuff">Ktor</span><br>
-                                Интерфейс: <span style="color: peachpuff">Compose Multiplatform</span><br>
-                                СУБД: <span style="color: rgb(58, 87, 229)">PostgreSQL</span><br>
-                                2024-202x год. 
-                                <br>
-                                <br>
-                                <a href="https://github.com/Obektev/obektev.github.io/blob/main/lecturecheck-legal/eula.md">EULA</a><br>
-                                <a href="https://github.com/Obektev/obektev.github.io/blob/main/lecturecheck-legal/rights.md">User Rights</a>  
-                                <a href="https://github.com/Obektev/obektev.github.io/blob/main/lecturecheck-legal/privacy.md">Privacy Policy</a>    
-                            </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            Will add in the future
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project_activation_button" id="LunchLink">
-                    <p>LunchLink</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/lunchlink/lunchlink.png" class="project_image" alt="" />
-                            <div class="project_description"><b>LunchLink</b> - мобильное андроид приложение для
-                                организации
-                                питания в школьных столовых, где учащиеся могут создать себе аккаунт и заказывать пищу.
-                                Есть поддержка русского и английского языков, светлой и тёмной тем, смена аватарок.
-                                Регистрация - через номер мобильного телефона.<br><br>
-                                Android Studio | Firebase | Glide<br>
-                                Логика: <span style="color: orange">Java</span><br>
-                                Интерфейс: <span style="color: peachpuff">XML</span> + <span
+            <div class="project_activation_button" id="robosumo">
+                <p>RoboSumo</p>
+                <div class="project_container">
+                    <div class="project_description_container">
+                        <img src="img/robosumo/robosumo.png" class="project_image" alt=""/>
+                        <div class="project_description"><b>RoboSumo</b> - мобильное андроид приложение, созданное
+                            для конкурса по программированию. Здесь реализована таблица соревнований с последующим
+                            просчётом
+                            победителей, учитывая вес роботов (участников). Есть поддержка русского и английского
+                            языков.
+                            Результаты матчей сохраняются после перезапуска приложения.
+                            <br><br>
+                            Android Studio<br>
+                            Логика: <span style="color: orange">Java</span><br>
+                            Интерфейс: <span style="color: peachpuff">XML</span> + <span
                                     style="color: orange">Java</span><br>
-                                2023 год.
-                                <br>
-                                <br>
-                                Обзоры и источники: <br>
-                                <div style="margin-top: 5px">
-                                    <i class="fa-brands fa-youtube"
-                                        onclick="openLink('https://youtu.be/0KZwD9Ldob4')"></i>
-                                    <i class="fa-brands fa-github"
-                                        onclick="openLink('https://github.com/Obektev/LunchLink')"></i>
-                                </div>
+                            2024 год.
+                            <br>
+                            <br>
+                            Обзоры и источники: <br>
+                            <div style="margin-top: 5px">
+                                <i class="fa-brands fa-youtube"
+                                   onclick="openLink('https://www.youtube.com/watch?v=hsm1ToGPJQk')"></i>
+                                <i class="fa-brands fa-github"
+                                   onclick="openLink('https://github.com/Obektev/RoboSum')"></i>
                             </div>
-                        </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/1.jpg" alt="" />
-                                    <div class="screenshot_description">Меню регистрации</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/2.jpg" alt="" />
-                                    <div class="screenshot_description">Меню регистрации
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/3.jpg" alt="" />
-                                    <div class="screenshot_description">Меню регистрации</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/4.jpg" alt="" />
-                                    <div class="screenshot_description">Главное меню
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/5.jpg" alt="" />
-                                    <div class="screenshot_description">Меню с блюдами<br>(нужно загрузить изображение)
-                                    </div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/6.jpg" alt="" />
-                                    <div class="screenshot_description">Меню с блюдами</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/7.jpg" alt="" />
-                                    <div class="screenshot_description">Экран с завтраком</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/8.jpg" alt="" />
-                                    <div class="screenshot_description">Заказ пользователя</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/9.jpg" alt="" />
-                                    <div class="screenshot_description">Информация о заказе</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/10.jpg" alt="" />
-                                    <div class="screenshot_description">Можно сделать заказ для другого человека
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/11.jpg" alt="" />
-                                    <div class="screenshot_description">Информация о заказе для другого человека</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/12.jpg" alt="" />
-                                    <div class="screenshot_description">Можно сделать личный заказ
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/13.jpg" alt="" />
-                                    <div class="screenshot_description">Так отображается личный заказ</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/14.jpg" alt="" />
-                                    <div class="screenshot_description">Окно настроек
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; max-width: 50%; padding: 10px">
-                                    <img class="screenshot" src="img/lunchlink/15.jpg" alt="" />
-                                    <div class="screenshot_description">Окно для изменения имени</div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
-                </div>
-                <div class="project_activation_button" id="RFootball">
-                    <p>RFootball</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/transparent.png" class="project_image" alt="" />
-                            <div class="project_description"><b>RFootball</b> - мобильное андроид приложение, созданное
-                                для конкурса по программированию. В этом приложении создаётся график соревнований и
-                                ведётся учёт победителей. Есть этапы полуфинала и финала.
-                                <br><br>
-                                Android Studio<br>
-                                Логика: <span style="color: orange">Java</span><br>
-                                Интерфейс: <span style="color: peachpuff">XML</span> + <span
-                                    style="color: orange">Java</span><br>
-                                2024 год.
-                                <br>
-                                <br>
-                                Обзоры и источники: <br>
-                                <div style="margin-top: 5px">
-                                    <i class="fa-brands fa-youtube"
-                                        onclick="openLink('https://youtu.be/bRouzkqbpRw')"></i>
-                                    <i class="fa-brands fa-github"
-                                        onclick="openLink('https://github.com/Obektev/RFootball')"></i>
+                    <br>
+                    <div class="project_review">Обзор</div>
+                    <div class="screenshots_container">
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/1.png" alt=""/>
+                                <div class="screenshot_description">Главное меню (ENG)</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/2.png" alt=""/>
+                                <div class="screenshot_description">Главное меню (RU)</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/3.png" alt=""/>
+                                <div class="screenshot_description">Создание соревнований</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/4.png" alt=""/>
+                                <div class="screenshot_description">Полученная таблица</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/5.png" alt=""/>
+                                <div class="screenshot_description">Выбор победителя сражения</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/6.png" alt=""/>
+                                <div class="screenshot_description">Прогресс соревнований отображается в таблице.<br>
+                                    Участники сортируются по местам автоматически
                                 </div>
                             </div>
                         </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/1.png" alt="" />
-                                    <div class="screenshot_description">Главное меню</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/2.png" alt="" />
-                                    <div class="screenshot_description">Создание
-                                        соревнований
-                                    </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/7.png" alt=""/>
+                                <div class="screenshot_description">Отображение победителя<br>В таблице ставятся
+                                    медальки 😜
                                 </div>
                             </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/3.png" alt="" />
-                                    <div class="screenshot_description">Полученный
-                                        календарь
-                                    </div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/4.png" alt="" />
-                                    <div class="screenshot_description">Выбор победителя
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/5.png" alt="" />
-                                    <div class="screenshot_description">Пройденные дни
-                                        помечаются
-                                    </div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/6.png" alt="" />
-                                    <div class="screenshot_description">Полуфинал
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/7.png" alt="" />
-                                    <div class="screenshot_description">Полуфинал в
-                                        календаре
-                                    </div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/8.png" alt="" />
-                                    <div class="screenshot_description">Финал
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/9.png" alt="" />
-                                    <div class="screenshot_description">Таблица
-                                        победителей
-                                    </div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/rfootball/10.png" alt="" />
-                                    <div class="screenshot_description">Победитель
-                                    </div>
-                                </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/robosumo/8.png" alt=""/>
+                                <div class="screenshot_description">Светлая тема приложения</div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="project_activation_button" id="robosumo">
-                    <p>RoboSumo</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/robosumo/robosumo.png" class="project_image" alt="" />
-                            <div class="project_description"><b>RoboSumo</b> - мобильное андроид приложение, созданное
-                                для конкурса по программированию. Здесь реализована таблица соревнований с последующим
-                                просчётом
-                                победителей, учитывая вес роботов (участников). Есть поддержка русского и английского
-                                языков.
-                                Результаты матчей сохраняются после перезапуска приложения.
-                                <br><br>
-                                Android Studio<br>
-                                Логика: <span style="color: orange">Java</span><br>
-                                Интерфейс: <span style="color: peachpuff">XML</span> + <span
-                                    style="color: orange">Java</span><br>
-                                2024 год.
-                                <br>
-                                <br>
-                                Обзоры и источники: <br>
-                                <div style="margin-top: 5px">
-                                    <i class="fa-brands fa-youtube"
-                                        onclick="openLink('https://www.youtube.com/watch?v=hsm1ToGPJQk')"></i>
-                                    <i class="fa-brands fa-github"
-                                        onclick="openLink('https://github.com/Obektev/RoboSum')"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/1.png" alt="" />
-                                    <div class="screenshot_description">Главное меню (ENG)</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/2.png" alt="" />
-                                    <div class="screenshot_description">Главное меню (RU)</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/3.png" alt="" />
-                                    <div class="screenshot_description">Создание соревнований</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/4.png" alt="" />
-                                    <div class="screenshot_description">Полученная таблица</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/5.png" alt="" />
-                                    <div class="screenshot_description">Выбор победителя сражения</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/6.png" alt="" />
-                                    <div class="screenshot_description">Прогресс соревнований отображается в
-                                        таблице.<br>
-                                        Участники сортируются по местам автоматически
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/7.png" alt="" />
-                                    <div class="screenshot_description">Отображение победителя<br>В таблице ставятся
-                                        медальки 😜
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/robosumo/8.png" alt="" />
-                                    <div class="screenshot_description">Светлая тема приложения</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project_activation_button" id="historyquiz">
-                    <p>HistoryQuiz</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/transparent.png" class="project_image" alt="" />
-                            <div class="project_description"><b>HistoryQuiz</b> - мобильное андроид приложение,
-                                созданное
-                                для конкурса по программированию за <b>2 часа</b>. Это викторина, посвященная Великой
-                                Отечественной
-                                войне. Вопросы и ответы появляются в случайном порядке. Вопросы и ответы находятся в
-                                отдельном файле,
-                                что делает масштабируемость быстрой.
-                                <p style="font-size: 0.6rem">Честно, я не знаю, что ещё написать здесь. За 2 часа не
-                                    получилось сделать что-то стоящее</p>
-                                2024 год.
-                                <br><br>
-                                Android Studio<br>
-                                Логика: <span style="color: orange">Java</span><br>
-                                Интерфейс: <span style="color: peachpuff">XML</span> + <span
+            <div class="project_activation_button" id="historyquiz">
+                <p>HistoryQuiz</p>
+                <div class="project_container">
+                    <div class="project_description_container">
+                        <img src="img/transparent.png" class="project_image" alt=""/>
+                        <div class="project_description"><b>HistoryQuiz</b> - мобильное андроид приложение, созданное
+                            для конкурса по программированию за <b>2 часа</b>. Это викторина, посвященная Великой
+                            Отечественной
+                            войне. Вопросы и ответы появляются в случайном порядке. Вопросы и ответы находятся в
+                            отдельном файле,
+                            что делает масштабируемость быстрой.
+                            <p style="font-size: 0.6rem">Честно, я не знаю, что ещё написать здесь. За 2 часа не
+                                получилось сделать что-то стоящее</p>
+                            2024 год.
+                            <br><br>
+                            Android Studio<br>
+                            Логика: <span style="color: orange">Java</span><br>
+                            Интерфейс: <span style="color: peachpuff">XML</span> + <span
                                     style="color: orange">Java</span>
-                                <br>
-                                <br>
-                                Обзоры и источники: <br>
-                                <div style="margin-top: 5px">
-                                    <i class="fa-brands fa-github"
-                                        onclick="openLink('https://github.com/Obektev/HistoryQuiz')"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/historyquiz/1.jpg" alt="" />
-                                    <div class="screenshot_description">Начало игры</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/historyquiz/2.jpg" alt="" />
-                                    <div class="screenshot_description">Вопрос викторины</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px; width: 50%">
-                                    <img class="screenshot" src="img/historyquiz/3.jpg" alt="" />
-                                    <div class="screenshot_description">Результаты</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project_activation_button" id="lcbrackets">
-                    <p>LCBrackets</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/lcbrackets/lcbrackets.png" class="project_image" alt="" />
-                            <div class="project_description"><b>LCBrackets</b> - windows приложение для замены
-                                текста из буфера обмена: <br>
-                                [] -> {}<br>
-                                {} -> []<br>
-                                lowercase -> UPPERCASE<br>
-                                UPPERCASE -> lowercase<br>
-                                Меню находится в системном трее.
-                                <p style="font-size: 0.8rem">Написано на коленке за 20 минут</p>
-                                <br><br>
-                                Логика: <span style="color: cornflowerblue">Python</span><br>
-                                2024 год.<br>
-                                Обзоры и источники: <br>
-                                <div style="margin-top: 5px">
-                                    <i class="fa-brands fa-github"
-                                        onclick="openLink('https://github.com/Obektev/LCBrakets')"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px;">
-                                    <img class="screenshot" src="img/lcbrackets/1.png" alt="" />
-                                    <div class="screenshot_description">Демонстрация меню</div>
-                                </div>
+                            <br>
+                            <br>
+                            Обзоры и источники: <br>
+                            <div style="margin-top: 5px">
+                                <i class="fa-brands fa-github"
+                                   onclick="openLink('https://github.com/Obektev/HistoryQuiz')"></i>
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <div class="project_review">Обзор</div>
+                    <div class="screenshots_container">
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/historyquiz/1.jpg" alt=""/>
+                                <div class="screenshot_description">Начало игры</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/historyquiz/2.jpg" alt=""/>
+                                <div class="screenshot_description">Вопрос викторины</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px; width: 50%">
+                                <img class="screenshot" src="img/historyquiz/3.jpg" alt=""/>
+                                <div class="screenshot_description">Результаты</div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+            </div>
 
-                <div class="project_activation_button" id="smartcalc">
-                    <p>SmartCalc</p>
-                    <div class="project_container">
-                        <div class="project_description_container">
-                            <img src="img/smartcalc/smartcalc.png" class="project_image" alt="" />
-                            <div class="project_description"><b>SmartCalc</b> - windows приложение, калькулятор на
-                                веб-интерфейсах.
-                                Есть поддержка тригонометрических функций, множество цветовых тем оформления<br>
-                                👉👈 мой первый проект.
-                                <br><br>
-                                Фреймворк: eel<br>
-                                Логика: <span style="color: cornflowerblue">Python</span><br>
-                                Интерфейс: <span style="color: greenyellow">HTML</span> +
-                                <span style="color: cornflowerblue">CSS</span> +
-                                <span style="color: darkorange">JS</span><br>
-                                2022 год.
-                                <br>
-                                <br>
-                                Обзоры и источники: <br>
-                                <div style="margin-top: 5px">
-                                    <i class="fa-brands fa-github"
-                                        onclick="openLink('https://github.com/Obektev/SmartCalc-')"></i>
-                                </div>
+            <div class="project_activation_button" id="lcbrackets">
+                <p>LCBrackets</p>
+                <div class="project_container">
+                    <div class="project_description_container">
+                        <img src="img/lcbrackets/lcbrackets.png" class="project_image" alt=""/>
+                        <div class="project_description"><b>LCBrackets</b> - windows приложение для замены
+                            текста из буфера обмена: <br>
+                            [] -> {}<br>
+                            {} -> []<br>
+                            lowercase -> UPPERCASE<br>
+                            UPPERCASE -> lowercase<br>
+                            Меню находится в системном трее.
+                            <p style="font-size: 0.8rem">Написано на коленке за 20 минут</p>
+                            <br><br>
+                            Логика: <span style="color: cornflowerblue">Python</span><br>
+                            2024 год.<br>
+                            Обзоры и источники: <br>
+                            <div style="margin-top: 5px">
+                                <i class="fa-brands fa-github"
+                                   onclick="openLink('https://github.com/Obektev/LCBrakets')"></i>
                             </div>
                         </div>
-                        <br>
-                        <div class="project_review">Обзор</div>
-                        <div class="screenshots_container">
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/1.png" alt="" />
-                                    <div class="screenshot_description">Начальное меню</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/2.png" alt="" />
-                                    <div class="screenshot_description">Туториал</div>
-                                </div>
+                    </div>
+                    <br>
+                    <div class="project_review">Обзор</div>
+                    <div class="screenshots_container">
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px;">
+                                <img class="screenshot" src="img/lcbrackets/1.png" alt=""/>
+                                <div class="screenshot_description">Демонстрация меню</div>
                             </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/3.png" alt="" />
-                                    <div class="screenshot_description">Туториал</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/4.png" alt="" />
-                                    <div class="screenshot_description">Цветовые темы</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/5.png" alt="" />
-                                    <div class="screenshot_description">Цветовые темы</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/6.png" alt="" />
-                                    <div class="screenshot_description">Цветовые темы</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/7.png" alt="" />
-                                    <div class="screenshot_description">Цветовые темы</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/8.png" alt="" />
-                                    <div class="screenshot_description">Цветовые темы</div>
-                                </div>
-                            </div>
-                            <div style="display: flex; justify-content: center">
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/9.png" alt="" />
-                                    <div class="screenshot_description">Демонстрация работы</div>
-                                </div>
-                                <div style="align-items: center; float: left; padding: 10px">
-                                    <img class="screenshot" src="img/smartcalc/10.png" alt="" />
-                                    <div class="screenshot_description">Демонстрация работы</div>
-                                </div>
-                            </div>
-
-
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project_activation_button" id="smartcalc">
+                <p>SmartCalc</p>
+                <div class="project_container">
+                    <div class="project_description_container">
+                        <img src="img/smartcalc/smartcalc.png" class="project_image" alt=""/>
+                        <div class="project_description"><b>SmartCalc</b> - windows приложение, калькулятор на
+                            веб-интерфейсах.
+                            Есть поддержка тригонометрических функций, множество цветовых тем оформления<br>
+                            👉👈 мой первый проект.
+                            <br><br>
+                            Фреймворк: eel<br>
+                            Логика: <span style="color: cornflowerblue">Python</span><br>
+                            Интерфейс: <span style="color: greenyellow">HTML</span> +
+                            <span style="color: cornflowerblue">CSS</span> +
+                            <span style="color: darkorange">JS</span><br>
+                            2022 год.
+                            <br>
+                            <br>
+                            Обзоры и источники: <br>
+                            <div style="margin-top: 5px">
+                                <i class="fa-brands fa-github"
+                                   onclick="openLink('https://github.com/Obektev/SmartCalc-')"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="project_review">Обзор</div>
+                    <div class="screenshots_container">
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/1.png" alt=""/>
+                                <div class="screenshot_description">Начальное меню</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/2.png" alt=""/>
+                                <div class="screenshot_description">Туториал</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/3.png" alt=""/>
+                                <div class="screenshot_description">Туториал</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/4.png" alt=""/>
+                                <div class="screenshot_description">Цветовые темы</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/5.png" alt=""/>
+                                <div class="screenshot_description">Цветовые темы</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/6.png" alt=""/>
+                                <div class="screenshot_description">Цветовые темы</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/7.png" alt=""/>
+                                <div class="screenshot_description">Цветовые темы</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/8.png" alt=""/>
+                                <div class="screenshot_description">Цветовые темы</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: center">
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/9.png" alt=""/>
+                                <div class="screenshot_description">Демонстрация работы</div>
+                            </div>
+                            <div style="align-items: center; float: left; padding: 10px">
+                                <img class="screenshot" src="img/smartcalc/10.png" alt=""/>
+                                <div class="screenshot_description">Демонстрация работы</div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="footer">
-        <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - автор этого сайта</p>
-        <p>Иванов Александр, Минск</p>
-        <p><i>obektev@gmail.com</i></p>
-        <p>2024</p>
-    </div>
+<div class="footer">
+    <p><a href="https://github.com/Obektev" target="_blank">Obektev</a> - автор этого сайта</p>
+    <p>Иванов Александр, Минск</p>
+    <p><i>obektev@gmail.com</i></p>
+    <p>2024</p>
+</div>
 
-    <script>
+<script>
 
-        function openLink(link) {
-            window.open(link, "_blank");
-        }
+    function openLink(link) {
+        window.open(link, "_blank");
+    }
 
-        document.querySelectorAll('.project_container').forEach(container => {
-            container.hidden = true;
+    document.querySelectorAll('.project_container').forEach(container => {
+        container.hidden = true;
+    });
+    document.querySelectorAll('.project_activation_button > p').forEach(button => {
+        button.addEventListener('click', function () {
+            const projectContainer = this.parentElement.querySelector('.project_container');
+            if (projectContainer.hidden)
+                this.style.color = "#63ba87";
+            else
+                this.style.color = "#ffffff";
+
+            projectContainer.hidden = !projectContainer.hidden;
         });
-        document.querySelectorAll('.project_activation_button > p').forEach(button => {
-            button.addEventListener('click', function () {
-                const projectContainer = this.parentElement.querySelector('.project_container');
-                if (projectContainer.hidden)
-                    this.style.color = "#63ba87";
-                else
-                    this.style.color = "#ffffff";
+    });
 
-                projectContainer.hidden = !projectContainer.hidden;
-            });
-        });
+</script>
 
-    </script>
-
-    <script src="scripts/tabSwapper.js"></script>
+<script src="scripts/tabSwapper.js"></script>
 </body>
-
 </html>
